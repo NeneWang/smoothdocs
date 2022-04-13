@@ -45,7 +45,7 @@ const config = {
       navbar: {
         title: 'Smooth Talkers',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Interviewing and Public Speaking Club Logo',
           src: 'img/logo.svg',
         },
         items: [
