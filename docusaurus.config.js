@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Smoothtalkers',
   tagline: 'Public Speaking & Interviewing Skills',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://smooth.l0l.in',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
