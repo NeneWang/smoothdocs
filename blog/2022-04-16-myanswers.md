@@ -1,7 +1,7 @@
 ---
 title: Nelson's Behavioural Answers
 authors: nelson
-tags: [my-answers]
+tags: [my-answers, behavioural]
 ---
 
 :::caution Blog Post In Progress

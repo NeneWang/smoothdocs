@@ -1,7 +1,7 @@
 ---
-title: Easy Algorithms Answers
+title: Medium Algorithms Answers
 authors: nelson
-tags: [my-answers, white-board, algorithms, algortihms-easy]
+tags: [my-answers, white-board, algorithms, algortihms-medium]
 ---
 
 :::caution Blog Post In Progress
