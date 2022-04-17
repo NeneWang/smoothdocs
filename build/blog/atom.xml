@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://your-docusaurus-test-site.com/blog</id>
+    <id>https://smooth.l0l.in/blog</id>
     <title>Smoothtalkers Blog</title>
     <updated>2022-04-17T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://your-docusaurus-test-site.com/blog"/>
+    <link rel="alternate" href="https://smooth.l0l.in/blog"/>
     <subtitle>Smoothtalkers Blog</subtitle>
-    <icon>https://your-docusaurus-test-site.com/img/favicon.ico</icon>
+    <icon>https://smooth.l0l.in/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Easy Algorithms Answers]]></title>
         <id>/2022/04/17/easy-programming-algorithms</id>
-        <link href="https://your-docusaurus-test-site.com/blog/2022/04/17/easy-programming-algorithms"/>
+        <link href="https://smooth.l0l.in/blog/2022/04/17/easy-programming-algorithms"/>
         <updated>2022-04-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This blog post eventually will have my answers to all provided interview]]></summary>
         <content type="html"><![CDATA[<div class="admonition admonition-caution alert alert--warning"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Blog Post In Progress</h5></div><div class="admonition-content"><p>This blog post eventually will have my answers to all provided interview
@@ -27,7 +27,7 @@ questions. However for the moment, it just here for demo purposes...</p></div></
     <entry>
         <title type="html"><![CDATA[Hard Algorithms Answers]]></title>
         <id>/2022/04/17/hard-programming-algorithms</id>
-        <link href="https://your-docusaurus-test-site.com/blog/2022/04/17/hard-programming-algorithms"/>
+        <link href="https://smooth.l0l.in/blog/2022/04/17/hard-programming-algorithms"/>
         <updated>2022-04-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This blog post eventually will have my answers to all provided interview]]></summary>
         <content type="html"><![CDATA[<div class="admonition admonition-caution alert alert--warning"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Blog Post In Progress</h5></div><div class="admonition-content"><p>This blog post eventually will have my answers to all provided interview
@@ -44,7 +44,7 @@ questions. However for the moment, it just here for demo purposes...</p></div></
     <entry>
         <title type="html"><![CDATA[Medium Algorithms Answers]]></title>
         <id>/2022/04/17/mid-programming-algorithms</id>
-        <link href="https://your-docusaurus-test-site.com/blog/2022/04/17/mid-programming-algorithms"/>
+        <link href="https://smooth.l0l.in/blog/2022/04/17/mid-programming-algorithms"/>
         <updated>2022-04-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This blog post eventually will have my answers to all provided interview]]></summary>
         <content type="html"><![CDATA[<div class="admonition admonition-caution alert alert--warning"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Blog Post In Progress</h5></div><div class="admonition-content"><p>This blog post eventually will have my answers to all provided interview
@@ -61,7 +61,7 @@ questions. However for the moment, it just here for demo purposes...</p></div></
     <entry>
         <title type="html"><![CDATA[Nelson's Behavioural Answers]]></title>
         <id>/2022/04/16/myanswers</id>
-        <link href="https://your-docusaurus-test-site.com/blog/2022/04/16/myanswers"/>
+        <link href="https://smooth.l0l.in/blog/2022/04/16/myanswers"/>
         <updated>2022-04-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This blog post eventually will have my answers to all provided interview]]></summary>
         <content type="html"><![CDATA[<div class="admonition admonition-caution alert alert--warning"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Blog Post In Progress</h5></div><div class="admonition-content"><p>This blog post eventually will have my answers to all provided interview

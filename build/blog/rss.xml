@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Smoothtalkers Blog</title>
-        <link>https://your-docusaurus-test-site.com/blog</link>
+        <link>https://smooth.l0l.in/blog</link>
         <description>Smoothtalkers Blog</description>
         <lastBuildDate>Sun, 17 Apr 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[Easy Algorithms Answers]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/2022/04/17/easy-programming-algorithms</link>
+            <link>https://smooth.l0l.in/blog/2022/04/17/easy-programming-algorithms</link>
             <guid>/2022/04/17/easy-programming-algorithms</guid>
             <pubDate>Sun, 17 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[This blog post eventually will have my answers to all provided interview]]></description>
@@ -23,7 +23,7 @@ questions. However for the moment, it just here for demo purposes...</p></div></
         </item>
         <item>
             <title><![CDATA[Hard Algorithms Answers]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/2022/04/17/hard-programming-algorithms</link>
+            <link>https://smooth.l0l.in/blog/2022/04/17/hard-programming-algorithms</link>
             <guid>/2022/04/17/hard-programming-algorithms</guid>
             <pubDate>Sun, 17 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[This blog post eventually will have my answers to all provided interview]]></description>
@@ -36,7 +36,7 @@ questions. However for the moment, it just here for demo purposes...</p></div></
         </item>
         <item>
             <title><![CDATA[Medium Algorithms Answers]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/2022/04/17/mid-programming-algorithms</link>
+            <link>https://smooth.l0l.in/blog/2022/04/17/mid-programming-algorithms</link>
             <guid>/2022/04/17/mid-programming-algorithms</guid>
             <pubDate>Sun, 17 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[This blog post eventually will have my answers to all provided interview]]></description>
@@ -49,7 +49,7 @@ questions. However for the moment, it just here for demo purposes...</p></div></
         </item>
         <item>
             <title><![CDATA[Nelson's Behavioural Answers]]></title>
-            <link>https://your-docusaurus-test-site.com/blog/2022/04/16/myanswers</link>
+            <link>https://smooth.l0l.in/blog/2022/04/16/myanswers</link>
             <guid>/2022/04/16/myanswers</guid>
             <pubDate>Sat, 16 Apr 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[This blog post eventually will have my answers to all provided interview]]></description>
