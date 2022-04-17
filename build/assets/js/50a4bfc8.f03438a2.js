@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmoothdocs=self.webpackChunksmoothdocs||[]).push([[6602],{574:function(o){o.exports=JSON.parse('{"permalink":"/blog/tags/algorithms","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
