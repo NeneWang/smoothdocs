@@ -23,12 +23,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Online meetings',
+    title: 'Get Inspired',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        No idea of what to answer in your job interview? We provide sample answers by our members in our community <b>blog</b>!
       </>
     ),
   },
