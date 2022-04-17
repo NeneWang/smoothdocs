@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: Hard algorithm Questions
+title: N's Hard algorithm Questions
 ---
 
 # Algorithms Questions
