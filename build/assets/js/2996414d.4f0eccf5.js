@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmoothdocs=self.webpackChunksmoothdocs||[]).push([[4286],{2871:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"algortihms-hard","count":1,"permalink":"/blog/tags/algortihms-hard"}')}}]);

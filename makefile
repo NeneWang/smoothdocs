@@ -8,7 +8,7 @@ main: build-commit ft-push
 
 
 build-commit:
-	yarn build
+	npx docusaurus build
 	git add --all
 	git commit -m "Production update | ${v}"	
 	git push origin HEAD
