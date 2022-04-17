@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Bi-Weekly Interview Practice',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/Bi-Weekly.svg').default,
     description: (
       <>
         We have bi-weekly meetings where we practice interview questions (At the moment through Zoom)
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Resources',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/resources.svg').default,
     description: (
       <>
         We provide a database of 100+ questions, We explain what interviewers love to hear as answers and provide our sample answers.
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'Get Inspired',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/ideas.svg').default,
     description: (
       <>
         No idea of what to answer in your job interview? We provide sample answers by our members in our community <b>blog</b>!
