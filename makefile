@@ -36,7 +36,7 @@ ft-configpush:
 	git config git-ftp.url ftp://ftp.${FTP_HOST}
 	git config git-ftp.user ${FTP_USER}
 	git config git-ftp.password ${FTP_PASSWORD}
-	git config git-ftp.syncroot src/.vuepress/dist/
+	git config git-ftp.syncroot build/
 	git ftp push --force
 
 ftpinit:
