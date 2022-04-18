@@ -22,6 +22,8 @@ posting your own once the blogging admin feature is realeased*
 
 - System Design Interview Questions
 - Data Science Interview Questions
+- Cyber Security Interview Questions
+- Marketing Interview Questions
 - Business Case Interview Questions
 - Product Management Interview Questions
 - Consultancy Interview Questions

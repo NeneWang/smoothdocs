@@ -9,7 +9,7 @@ title: Mid algorithm Questions
 ## Longest Peak
 Write a function that takes in an array of integers and returns the length of
 the longest peak in the array.
-![](/img/2022-04-18-17-07-54.png)
+![](/img/2022-04-18-18-22-04.png)
 <details>
 <summary>
  Javascript Solution
@@ -60,8 +60,7 @@ function longestPeak(array) {
 Write a function that takes in an array of integers and ran array of the same
 length, where each element in the output array is equal to the product of every
 other number in the input array
-
-![](/img/2022-04-18-17-28-38.png)
+![](/img/2022-04-18-18-22-56.png)
 <details>
 <summary>
  Javascript Solution
@@ -118,10 +117,12 @@ function arrayOfProducts(array){
 
 
 
-## Longest Peak
-Write a function that takes in an array of integers and returns the length of
-the longest peak in the array.
-![](/img/2022-04-18-17-07-54.png)
+## First Duplicate Value
+Given an array of integers between `a` and `n`, inclusive, where `n` is the
+length of the array, write a function that returns the first integer that
+appears more than once. (when the array is read from left to right)
+
+![](/img/2022-04-18-18-21-15.png)
 <details>
 <summary>
  Javascript Solution
@@ -131,35 +132,14 @@ the longest peak in the array.
 
 
 ```javascript
-function longestPeak(array) {
-    let longestPeakLength = 0;
-    let i = 1;
-
-    while (i < array.length - 1) {
-        const isPeak = array[i - 1] < array[i] && array[i + 1] < array[i];
-        if (!isPeak) {
-            i++;
-            continue;
-        }
-
-        let leftIdx = i - 2;
-        while (leftIdx >= 0 && array[leftIdx] < array[leftIdx + 1]) {
-            leftIdx--;
-        }
-
-        let rightIdx = i + 2;
-        while (rightIdx < array.length && array[rightIdx] < array[rightIdx - 1]) {
-            rightIdx++;
-        }
-
-         const currentLongest = rightIdx - leftIdx - 1;
-        longestPeakLength = Math.max(currentLongest, longestPeakLength);
-        i = rightIdx;
+function firstDuplicateValue(array) {
+    for (const value of array) {
+        const absValue = Math.abs(value);
+        if (array[absValue - 1] < 0) return absValue;
+        array[absValue - 1] *= -1;
 
     }
-
-    return longestPeakLength;
-
+    return -1;
 }
 
 ```
@@ -168,10 +148,12 @@ function longestPeak(array) {
 
 
 
-## Longest Peak
-Write a function that takes in an array of integers and returns the length of
-the longest peak in the array.
-![](/img/2022-04-18-17-07-54.png)
+## Merge Overlapping Intervals
+
+Write a function that takes in a non-empty array of arbitrary intervals, merges
+any overalapping intervals, and returns the new intervals in no particular order.
+
+![details](/img/2022-04-18-18-36-02.png)
 <details>
 <summary>
  Javascript Solution
@@ -181,35 +163,24 @@ the longest peak in the array.
 
 
 ```javascript
-function longestPeak(array) {
-    let longestPeakLength = 0;
-    let i = 1;
+function mergeOverlappingIntervals(intervals) {
+    const sortedIntervals = intervals.sort((a, b) => a[0] - b[0]);
 
-    while (i < array.length - 1) {
-        const isPeak = array[i - 1] < array[i] && array[i + 1] < array[i];
-        if (!isPeak) {
-            i++;
-            continue;
+    const mergedIntervals = [];
+    let currentInterval = sortedIntervals[0];
+    mergedIntervals.push(currentInterval);
+
+    for (const nextInterval of sortedIntervals) {
+        const [_, currentIntervalEnd] = currentInterval;
+        const [nextIntervalStart, nextIntervalEnd] = nextInterval;
+
+        if(currentIntervalEnd >= nextIntervalStart) currentInterval[1] = Math.max(currentIntervalEnd, nextIntervalEnd)
+        else{
+            currentInterval = nextInterval;
+            mergedIntervals.push(currentInterval);
         }
-
-        let leftIdx = i - 2;
-        while (leftIdx >= 0 && array[leftIdx] < array[leftIdx + 1]) {
-            leftIdx--;
-        }
-
-        let rightIdx = i + 2;
-        while (rightIdx < array.length && array[rightIdx] < array[rightIdx - 1]) {
-            rightIdx++;
-        }
-
-         const currentLongest = rightIdx - leftIdx - 1;
-        longestPeakLength = Math.max(currentLongest, longestPeakLength);
-        i = rightIdx;
-
     }
-
-    return longestPeakLength;
-
+    return mergedIntervals;
 }
 
 ```
