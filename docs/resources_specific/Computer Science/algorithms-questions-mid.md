@@ -353,7 +353,6 @@ pre-order, and post-order tree-traversal techniques, respectively.
 
 <div>
 
-
 ```javascript
 function inOrderTraverse(tree, array) {
     // Write your code here.
