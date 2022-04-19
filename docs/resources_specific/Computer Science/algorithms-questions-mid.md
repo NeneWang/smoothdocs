@@ -300,6 +300,97 @@ exports.BST = BST;
 
 
 
+## Validate BST
+Write a function that takes in a potentially invalid Binary Search Tree (BST)
+and returns a boolean representing whther the BST is valid.
+![](/img/2022-04-19-01-51-02.png)
+<details>
+<summary>
+ Javascript Solution
+</summary>
+
+<div>
+
+
+```javascript
+class BST {
+    constructor(value) {
+        this.value = value;
+        this.left = null;
+        this.right = null;
+    }
+}
+
+function validateBst(tree) {
+    // Write your code here.
+    return validateBstHelper(tree, -Infinity, Infinity);
+}
+
+
+function validateBstHelper(tree, minValue, maxValue) {
+    if (tree === null) return true;
+    if (tree.value < minValue || tree.value >= maxValue) return false;
+    const leftIsValid = validateBstHelper(tree.left, minValue, tree.value);
+    return leftIsValid && validateBstHelper(tree.right, tree.value, maxValue);
+
+
+}
+```
+</div>
+</details>
+
+## BST Traversal
+Write three functions that take in a Binary Search Tree (BST) and an empty
+array, traverse the BST, add its nodes' values to the input array, and returns
+that array. The three functions should traverse the BST using the in-order,
+pre-order, and post-order tree-traversal techniques, respectively.
+
+![](/img/2022-04-19-01-58-34.png)
+<details>
+<summary>
+ Javascript Solution
+</summary>
+
+<div>
+
+
+```javascript
+function inOrderTraverse(tree, array) {
+    // Write your code here.
+    if (tree !== null) {
+        inOrderTraverse(tree.left, array);
+        array.push(tree.value);
+        inOrderTraverse(tree.right, array);
+    }
+    return array;
+
+}
+
+function preOrderTraverse(tree, array) {
+    // Write your code here.
+    if (tree !== null) {
+        array.push(tree.value);
+        preOrderTraverse(tree.left, array);
+        preOrderTraverse(tree.right, array);
+
+    }
+    return array;
+}
+
+function postOrderTraverse(tree, array) {
+    // Write your code here.
+    if (tree !== null) {
+        postOrderTraverse(tree.left, array);
+        postOrderTraverse(tree.right, array);
+        array.push(tree.value);
+    }
+    return array;
+}
+```
+</div>
+</details>
+
+
 ## Longest Peak
 Write a function that takes in an array of integers and returns the length of
 the longest peak in the array.
@@ -313,38 +404,47 @@ the longest peak in the array.
 
 
 ```javascript
-function longestPeak(array) {
-    let longestPeakLength = 0;
-    let i = 1;
-
-    while (i < array.length - 1) {
-        const isPeak = array[i - 1] < array[i] && array[i + 1] < array[i];
-        if (!isPeak) {
-            i++;
-            continue;
-        }
-
-        let leftIdx = i - 2;
-        while (leftIdx >= 0 && array[leftIdx] < array[leftIdx + 1]) {
-            leftIdx--;
-        }
-
-        let rightIdx = i + 2;
-        while (rightIdx < array.length && array[rightIdx] < array[rightIdx - 1]) {
-            rightIdx++;
-        }
-
-         const currentLongest = rightIdx - leftIdx - 1;
-        longestPeakLength = Math.max(currentLongest, longestPeakLength);
-        i = rightIdx;
-
-    }
-
-    return longestPeakLength;
-
-}
 
 ```
 </div>
 </details>
+
+
+## Longest Peak
+Write a function that takes in an array of integers and returns the length of
+the longest peak in the array.
+![](/img/2022-04-18-17-07-54.png)
+<details>
+<summary>
+ Javascript Solution
+</summary>
+
+<div>
+
+
+```javascript
+
+```
+</div>
+</details>
+
+
+## Longest Peak
+Write a function that takes in an array of integers and returns the length of
+the longest peak in the array.
+![](/img/2022-04-18-17-07-54.png)
+<details>
+<summary>
+ Javascript Solution
+</summary>
+
+<div>
+
+
+```javascript
+
+```
+</div>
+</details>
+
 

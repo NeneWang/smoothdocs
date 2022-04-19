@@ -337,6 +337,46 @@ exports.BST = BST;
 </div>
 </details>
 
+## Validate BST
+Write a function that takes in a potentially invalid Binary Search Tree (BST)
+and returns a boolean representing whther the BST is valid.
+![](/img/2022-04-19-01-51-02.png)
+<details>
+<summary>
+ Javascript Solution
+</summary>
+
+<div>
+
+This is just about keep evaluating down the tree
+![](/img/2022-04-19-01-55-00.png)
+
+```javascript
+class BST {
+    constructor(value) {
+        this.value = value;
+        this.left = null;
+        this.right = null;
+    }
+}
+
+function validateBst(tree) {
+    // Write your code here.
+    return validateBstHelper(tree, -Infinity, Infinity);
+}
+
+
+function validateBstHelper(tree, minValue, maxValue) {
+    if (tree === null) return true;
+    if (tree.value < minValue || tree.value >= maxValue) return false;
+    const leftIsValid = validateBstHelper(tree.left, minValue, tree.value);
+    return leftIsValid && validateBstHelper(tree.right, tree.value, maxValue);
+
+
+}
+```
+</div>
+</details>
 
 
 
