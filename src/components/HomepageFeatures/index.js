@@ -50,11 +50,36 @@ function Feature({ Svg, title, description }) {
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
+
+
       <div className="container">
+
+
+        <div>
+          <div className={styles.features} >
+            <h2>Upcoming Meetings 📆 </h2></div>
+          <table>
+            <tr>
+              <td>Date</td>
+              <td>Time</td>
+              <td>Status</td>
+              <td>Link</td>
+              <td>RSV</td>
+            </tr>
+            <tr>
+              <td>May 11</td>
+              <td>3:30 pm - 5:30 pm</td>
+              <td>Confirmed</td>
+              <td><a target="_blank" href="https://zoom.us/my/afontenelle">Zoom</a></td>
+              <td><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc760joQhO5pSklci85Lkxj9Ml4xeZel4HndROHPJQtHnPrVg/viewform?usp=sf_link">RSVP Link</a></td>
+            </tr>
+          </table>
+        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
+
         </div>
       </div>
     </section>

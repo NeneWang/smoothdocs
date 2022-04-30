@@ -22,9 +22,9 @@ from 3:30 pm to 5:30 pm virtually in: https://zoom.us/my/afontenelle.
 
 You can [RSVP to our meetings here](https://docs.google.com/forms/d/e/1FAIpQLSc760joQhO5pSklci85Lkxj9Ml4xeZel4HndROHPJQtHnPrVg/viewform?usp=sf_link)
 
-| Time   | Status    | Link                                   | RSV
-| ------ | --------- | -------------------------------------- |--
-| May 11 | Confirmed | [Zoom](https://zoom.us/my/afontenelle) | [RSVP Link](https://docs.google.com/forms/d/e/1FAIpQLSc760joQhO5pSklci85Lkxj9Ml4xeZel4HndROHPJQtHnPrVg/viewform?usp=sf_link)
+| Date   | Time              | Status    | Link                                   | RSV                                                                                                                          |
+| ------ | ----------------- | --------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| May 11 | 3:30 pm - 5:30 pm | Confirmed | [Zoom](https://zoom.us/my/afontenelle) | [RSVP Link](https://docs.google.com/forms/d/e/1FAIpQLSc760joQhO5pSklci85Lkxj9Ml4xeZel4HndROHPJQtHnPrVg/viewform?usp=sf_link) |
 
 
 
