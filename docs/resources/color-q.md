@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Color Q Assessment
+title: 🎨 Color Q Assessment
 ---
 
 *This is a quick personality assessment *
@@ -51,4 +51,4 @@ Component IV
 
 
 
-And access the career chapter [here](https://tinyurl.com/careermatchchapters)
+And access the career chapter [here](https://tinyurl.com/careermatchchapt

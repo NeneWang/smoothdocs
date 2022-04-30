@@ -134,9 +134,11 @@ and stuff during his free time like this blog!</li></ul></li><li>What are your s
         <category label="behavioural" term="behavioural"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[dev-notes]]></title>
+        <title type="html"><![CDATA[Devnotes]]></title>
         <id>/dev-notes</id>
         <link href="https://smooth.l0l.in/blog/dev-notes"/>
         <updated>2022-04-13T22:11:27.000Z</updated>
+        <summary type="html"><![CDATA[Markdown to HTML (Including tables and links)]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://markdowntohtml.com/" target="_blank" rel="noopener noreferrer">Markdown to HTML (Including tables and links)</a></p>]]></content>
     </entry>
 </feed>
