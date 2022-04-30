@@ -16,6 +16,7 @@ title: 🎨 Color Q Assessment
 - [ ] Creating Interactive Color Q
 ::: -->
 
+## Components
 
 Follow step by step: Starting by completing the following Component:
 
@@ -48,7 +49,12 @@ Component IV
 
 </details>
 
+## Results
 
-
-
-And access the career chapter [here](https://tinyurl.com/careermatchchapters)
+:::note How to find your results
+1. You will rceive a primary and secondary color from Component #2 or #3
+2. You will also receive information regarding if you are an extrover or introvert
+3. With that information find the chapter that matches your colors and
+   personality over here -> [Click career chapter
+   here](https://tinyurl.com/careermatchchapters)
+:::
