@@ -84,6 +84,19 @@ const config = {
               }
             ],
           },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Join us in Whatsapp (Primary Community)',
+                href: 'https://docs.google.com/forms/d/e/1FAIpQLSe4Wuk8jmYNbVxvNeTISU94DKUnH7T2yk1Nl0yYgRgyPL_syQ/viewform?usp=sf_link',
+              },
+              {
+                label: "Discord",
+                href: "https://discord.gg/75mRgGT8sn"
+              }
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} `,
       },
