@@ -7,6 +7,10 @@ title: Resume
 that too!*
 
 
+
 :::caution Page in progress
 
+- [ ] Step by step
+- [ ] Pictures to help students
+- [ ] You can also ask us during our meetings.
 :::

@@ -25,6 +25,18 @@ Tell me about yourself
 **What Employers are looking for.**
 - They are looking for how you can help the company
 
+**Framework**
+
+1. Year, 
+2. School, 
+3. Major, 
+4. Past, 
+5. Current, 
+6. Future, 
+7. Short term goals, 
+8. Long term goals
+
+
 </details>
 
 <details>

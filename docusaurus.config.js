@@ -61,6 +61,11 @@ const config = {
             label: 'Zoom',
             position: 'right',
           },
+          {
+            href: 'https://docs.google.com/forms/d/e/1FAIpQLSc760joQhO5pSklci85Lkxj9Ml4xeZel4HndROHPJQtHnPrVg/viewform?usp=sf_link',
+            label: 'RSVP',
+            position: 'right'
+          }
         ],
       },
       footer: {
