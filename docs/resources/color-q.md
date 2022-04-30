@@ -3,26 +3,21 @@ sidebar_position: 2
 title: Color Q Assessment
 ---
 
-:::caution Page in progress
+*This is a quick personality assessment *
+:::tip 🔗 Links
+
+- [ 📃 Click here for the Color Q Test as a printable file.](https://drive.google.com/file/d/1Xk32k9YWqRXAVSNjWHhq8k1nwRGriu58/view)
+- [👧 **Chapters** (Results Folders)](https://tinyurl.com/careermatchchapters)
+
 
 :::
+<!-- 
+:::caution Page in progress
+- [ ] Creating Interactive Color Q
+::: -->
 
 
-[Click here for the Color Q Test as a printable file.](https://drive.google.com/file/d/1Xk32k9YWqRXAVSNjWHhq8k1nwRGriu58/view)
-- [ ] Be valued for your common sense.
-- [ ] Focus on the present; what is
-
-### Interactive Color Q Assessment
-
-
-### Without the Program
-
-This is a quick personality assessment 
-
-Follow step by step: 
-
-
-
+Follow step by step: Starting by completing the following Component:
 
 ![](../../static/img/2022-04-30-10-34-25.png)
 <details>
@@ -47,7 +42,8 @@ Component III
 <summary>
 Component IV
 </summary>
-![](../../static/img/2022-04-30-10-41-00.png)
+
+![](../../static/img/2022-04-30-11-30-46.png)
 
 
 </details>
