@@ -6,7 +6,7 @@ title: 🚇 Core Interview Questions
 
 :::info
 So you didn't have any time to prepare and your interview is in a few
-seconds... don't worry we got you covered, just g over this questions 
+minutes... don't worry we got you covered, just go over this **CORE questions**
 
 :::
 
@@ -16,6 +16,9 @@ seconds... don't worry we got you covered, just g over this questions
 - What are your strengths?
 - What are your weakness and what you did to solve that? 
 - Are you a team player or prefer to work alone?
+
+
+### 📝 Notes 
 
 <details>
 <summary>
@@ -49,10 +52,6 @@ What are your weakness and what you did to solve that?
 
 </details>
 
-
-## What employers are looking for
-
-## Sample Answers
 
 
 
