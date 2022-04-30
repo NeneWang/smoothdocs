@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Minimalistic Question Set
+title: Core Interview Questions
 ---
 
 
@@ -10,12 +10,37 @@ seconds... don't worry we got you covered, just g over this questions
 
 :::
 
-:::caution Page in progress
-
-:::
-
-
 ## Questions
+
+- Tell me about yourself
+- What are your strengths?
+- What are your weakness and what you did to solve that? 
+- Are you a team player or prefer to work alone?
+
+<details>
+<summary>
+Tell me about yourself
+</summary>
+
+**What Employers are looking for.**
+- They are looking for how you can help the company
+
+</details>
+
+<details>
+<summary>
+What are your weakness and what you did to solve that? 
+</summary>
+
+**What Employers are looking for.**
+- They are looking for how you can help the company
+
+</details>
+
+
+## What employers are looking for
+
+## Sample Answers
 
 
 

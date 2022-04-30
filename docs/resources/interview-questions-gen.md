@@ -12,7 +12,7 @@ problems and solutions in other pages.
 :::
 
 [Potential Interview Questions](https://docs.google.com/document/d/1NrfuO4PIaQkOMmUqIdlFWpUHWshBsf3zOoq5fRKG1CU/edit)
-![things](/img/2022-04-13-17-09-57.png)
+![](../../static/img/2022-04-30-10-32-14.png)
 
 ## Basic Interview Questions
 

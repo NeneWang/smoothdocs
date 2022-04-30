@@ -13,11 +13,10 @@ from 3:30 pm to 5:30 pm virtually in: https://zoom.us/my/afontenelle.
 
 ### Upcoming Meetings
 
+| Time   | Status    | Link                                   |
+| ------ | --------- | -------------------------------------- |
+| May 11 | Confirmed | [Zoom](https://zoom.us/my/afontenelle) |
 
-- April 27
-- May 4
-- May 18
-- June 1
 
 
 ### Our Mission
