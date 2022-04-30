@@ -1,8 +1,7 @@
 ---
 sidebar_position: 1
+title: 👨‍💼 Interview Questions Set
 ---
-
-# Interview Questions Set
 
 
 ## General Interview Questions

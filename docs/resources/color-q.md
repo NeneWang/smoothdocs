@@ -51,4 +51,4 @@ Component IV
 
 
 
-And access the career chapter [here](https://tinyurl.com/careermatchchapt
+And access the career chapter [here](https://tinyurl.com/careermatchchapters)
