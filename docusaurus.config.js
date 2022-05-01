@@ -64,8 +64,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documents',
+            label: 'About',
           },
+          { to: '/resources/intro', label: 'Resources', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://zoom.us/my/afontenelle',
