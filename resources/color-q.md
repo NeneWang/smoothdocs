@@ -20,13 +20,13 @@ title: 🎨 Color Q Assessment
 
 Follow step by step: Starting by completing the following Component:
 
-![](../../static/img/2022-04-30-10-34-25.png)
+![](../static/img/2022-04-30-10-34-25.png)
 <details>
 <summary>
 Component II
 </summary>
 
-![](../../static/img/2022-04-30-10-35-32.png)
+![](../static/img/2022-04-30-10-35-32.png)
 </details>
 
 
@@ -35,7 +35,7 @@ Component II
 Component III
 </summary>
 
-![](../../static/img/2022-04-30-10-36-04.png)
+![](../static/img/2022-04-30-10-36-04.png)
 </details>
 
 
@@ -44,7 +44,7 @@ Component III
 Component IV
 </summary>
 
-![](../../static/img/2022-04-30-11-30-46.png)
+![](../static/img/2022-04-30-11-30-46.png)
 
 
 </details>
