@@ -11,26 +11,31 @@ see your name yet!
 ## Faculty/Staff Advisors
 
 ### Andre Fontenelle
-Faculty/Staff Advisor Name
+Founder of Smooth Talkers - Faculty/Staff at Brooklyn College
 Assoc. Director for Employer Relations & Internships - Magner Career Center
 
-
-## E-board
-
-### James Ma
-President of the club since...
+### Paula Cohen
+Career Coach - Faculty/Staff at Brooklyn College
 
 
-### Takhmina (Nina) Bagmatova
-**2021 - Vice President**
-Smooth-Talkers Vice President Takhmina (Nina) Begmatova. Nina is a junior in Brooklyn College, majoring in B.S. in Accounting. She joined Smooth-Talkers to better her public speaking and interview skills. After joining smooth talkers, she was able to improve her interviewing skills and was able to land two internships. She worked part-time at Magner Career Center before starting her internship with PwC. She interned for 15 weeks in the firm's Tax department, where she secured a full-time position upon graduation. She will be interning with KPMG for the winter of 2021 in their Audit Department. She is excited to start her role as a vice president, so she can help student just like herself to improve their public speaking skills and land their dream job/internships.
+## E-board 
 
-
-
-## Students
-
-*I will be adding here bloggers/volunteers/officers that offered their services
-to us!*
-
+| Name                     | Role              | Year        |
+| ------------------------ | ----------------- | ----------- |
+| James Ma                 | President         | 2022        |
+| Nelson Wang              | Vice-President    | 2022        |
+| Emilie Hanson            | Treasurer         | 2022        |
+| Lata Jahan               | Vice President    | 2021        |
+| Nishat Bhuiyan           | Secretary         | 2021        |
+| Saad Ahmad               | Treasurer         | 2021        |
+| Neissa Doreen            | President         | 2020 - 2021 |
+| Shella Waheed            | Treasurer         | 2020        |
+| Takmina (Nina) Begmatova | Vice president    | 2020        |
+| Toyosi Adebayo           | President         | 2020        |
+| Sunny Chang              | President         | 2019        |
+| Henry Zeng               | Secretary         | 2019        |
+| Jessica Kaplan           | Vice President    | 2019        |
+| Hira Nasir               | Treasurer         | 2019        |
+| Frances                  | Head of Marketing | 2019        |
 
 
