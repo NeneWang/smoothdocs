@@ -11,4 +11,5 @@ Including:
   minutes left before an interview
 - **Color Q Assessment:**  Quick 5 minutes assessment to help you determine the
   right career path.
-- **Resume Building:** 
+- **Resume Building:** Our tips when it comes to resume building
+- **Computer Science:** Computer Science specific white-board questions.
