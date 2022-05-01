@@ -54,7 +54,6 @@ export default function HomepageFeatures() {
 
       <div className="container">
 
-
         <div>
           <div className={styles.features} >
             <h2>Upcoming Meetings 📆 </h2></div>
