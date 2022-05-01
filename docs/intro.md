@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+title: Introduction to Smooth Talkers
 ---
 
 # Introduction to Smooth Talkers
