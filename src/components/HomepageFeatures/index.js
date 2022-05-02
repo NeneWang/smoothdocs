@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Link from '@docusaurus/Link';
 
 const FeatureList = [
   {
@@ -8,7 +9,7 @@ const FeatureList = [
     Svg: require('@site/static/img/Bi-Weekly.svg').default,
     description: (
       <>
-        We have bi-weekly meetings where we practice interview questions (At the moment through Zoom)
+        We have <Link to="/docs/intro#meetings-" >bi-weekly meetings</Link>  where we practice interview questions (At the moment through Zoom)
       </>
     ),
   },
@@ -17,7 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/resources.svg').default,
     description: (
       <>
-        We provide a database of 100+ questions, We explain what interviewers love to hear as answers and provide our sample answers.
+        We provide a database of <Link to={"resources/interview-questions-gen"}>100+ questions </Link>, We explain what interviewers love to hear as answers and provide our sample answers.
 
       </>
     ),
@@ -27,7 +28,7 @@ const FeatureList = [
     Svg: require('@site/static/img/ideas.svg').default,
     description: (
       <>
-        No idea of what to answer in your job interview? We provide sample answers by our members in our community <b>blog</b>!
+        No idea of what to answer in your job interview? We provide sample answers by our members in <Link to='/blog'>our community blog</Link>!
       </>
     ),
   },
