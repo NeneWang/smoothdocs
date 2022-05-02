@@ -52,12 +52,12 @@ export default function HomepageFeatures() {
     <section className={styles.features}>
 
 
-      <div className="container">
+      <div className="container ">
 
-        <div>
-          <div className={styles.features} >
-            <h2>Upcoming Meetings 📆 </h2></div>
-          <table>
+        <div className='center center-text' >
+          <div className="center-text" >
+            <h2 className='' >Upcoming Meetings 📆 </h2></div>
+          <table className='center-table'>
             <tr>
               <td>Date</td>
               <td>Time</td>
