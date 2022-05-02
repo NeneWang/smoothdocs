@@ -56,7 +56,7 @@ export default function HomepageFeatures() {
 
         <div className='center center-text' >
           <div className="center-text" >
-            <h2 className='' >Upcoming Meetings 📆 </h2></div>
+            <h2 className='' >📆 Upcoming Meetings  </h2></div>
           <table className='center-table'>
             <tr>
               <td>Date</td>
