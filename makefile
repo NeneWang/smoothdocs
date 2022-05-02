@@ -1,6 +1,6 @@
 PAGE=http://smooth.l0l.in/
 FTP_HOST=wngnelson.com
-FTP_USER=u851203827.smoothdeploy
+FTP_USER=u851203827.smoothbc.com
 FTP_PASSWORD=Smooth448!
 # Requrements: git-ftp, yarn, node
 
