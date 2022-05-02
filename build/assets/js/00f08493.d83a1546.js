@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksmoothdocs=self.webpackChunksmoothdocs||[]).push([[7697],{9661:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"white-board","count":1,"permalink":"/blog/tags/white-board"}')}}]);

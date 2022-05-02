@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksmoothdocs=self.webpackChunksmoothdocs||[]).push([[3346],{1348:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"algortihms-medium","count":2,"permalink":"/blog/tags/algortihms-medium"}')}}]);
