@@ -33,14 +33,14 @@ ft-push:
 	echo "open in https://smooth.l0l.in" && git log -n 2
 	
 ft-configpush:
-	git config git-ftp.url ftp://ftp.${FTP_HOST}
+	git config git-ftp.url ${FTP_HOST}
 	git config git-ftp.user ${FTP_USER}
 	git config git-ftp.password ${FTP_PASSWORD}
 	git config git-ftp.syncroot build/
 	git ftp push --force
 
 ftpinit:
-	git config git-ftp.url ftp://ftp.${FTP_HOST}
+	git config git-ftp.url ${FTP_HOST}
 	git config git-ftp.user ${FTP_USER}
 	git config git-ftp.password ${FTP_PASSWORD}
 	git config git-ftp.syncroot build/
