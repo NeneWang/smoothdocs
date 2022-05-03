@@ -196,3 +196,30 @@ For questions like these, you want a story that illustrates your ability to work
 - Tell me about a time when you worked under close supervision or extremely loose supervision. How did you handle that?
 - Give me an example of a time you were able to be creative with your work. What was exciting or difficult about it?- ll me about a time you were dissatisfied in your work. 
 - What could have been done to make it better?
+
+## Questions the candidate can ask the Interviewer
+
+1. What does a typical day look like?
+2. What are the most immediate projects that need to be addressed?
+3. Can you show me examples of projects I'd be working on?
+4. What are the skills and experiences you’re looking for in an ideal candidate?
+5. What attributes does someone need to have in order to be really successful in this position?
+6. What types of skills is the team missing that you’re looking to fill with a new hire?
+7. What are the biggest challenges that someone in this position would face?
+8. What sort of budget would I be working with?
+9. Is this a new role that has been created?
+10. Do you expect the main responsibilities for this position to change in the next six months to a year?
+
+### Training and Professional Development
+*Think of each new job not just as a job, but as the next step on your path to career success. Will this position help you get there?*
+
+11. How will I be trained?
+12. What training programs are available to your employees?
+13. Are there opportunities for advancement or professional development ?
+14. Would I be able to represent the company at industry conferences?
+15. Where is the last person who held this job moving on to?
+16. Where have successful employees previously in this position progressed to?
+
+
+
+
