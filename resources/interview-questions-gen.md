@@ -158,28 +158,28 @@ For questions like these, you want a story that illustrates your ability to work
 - Tell me about a time you needed to get information from someone who wasn’t very responsive. What did you do?
  
 ### Client-Facing Skills
-If the role you’re interviewing for works with clients, definitely be ready for one of these. Find an example of a time where you successfully represented your company or team and delivered exceptional customer service.
-Describe a time when it was especially important to make a good impression on a client. How did you go about doing so?
-Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
-Tell me about a time when you made sure a customer was pleased with your service.
-Describe a time when you had to interact with a difficult client. What was the situation, and how did you handle it?
-When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
+- If the role you’re interviewing for works with clients, definitely be ready for one of these. Find an example of a time where you successfully represented your company or team and delivered exceptional customer service.
+- Describe a time when it was especially important to make a good impression on a client. How did you go about doing so?
+- Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
+- Tell me about a time when you made sure a customer was pleased with your service.
+- Describe a time when you had to interact with a difficult client. What was the situation, and how did you handle it?
+- When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
  
 ### Ability to Adapt
-Times of turmoil are finally good for something! Think of a recent work crisis you successfully navigated. Even if your navigation didn’t feel successful at the time, find a lesson or silver lining you took from the situation.
-Tell me about a time you were under a lot of pressure. What was going on, and how did you get through it?
-Describe a time when your team or company was undergoing some change. How did that impact you, and how did you adapt?
-Tell me about the first job you’ve ever had. What did you do to learn the ropes?
-Give me an example of a time when you had to think on your feet in order to delicately extricate yourself from a difficult or awkward situation.
-Tell me about a time you failed. How did you deal with this situation?
+- Times of turmoil are finally good for something! Think of a recent work crisis you successfully navigated. Even if your navigation didn’t feel successful at the time, find a lesson or silver lining you took from the situation.
+- Tell me about a time you were under a lot of pressure. What was going on, and how did you get through it?
+- Describe a time when your team or company was undergoing some change. How did that impact you, and how did you adapt?
+- Tell me about the first job you’ve ever had. What did you do to learn the ropes?
+- Give me an example of a time when you had to think on your feet in order to delicately extricate yourself from a difficult or awkward situation.
+- Tell me about a time you failed. How did you deal with this situation?
  
 ### Time Management Skills
-In other words, get ready to talk about a time you juggled multiple responsibilities, organized it all (perfectly), and completed everything before the deadline.
-Tell me about a time you had to be very strategic in order to meet all your top priorities.
-Describe a long-term project that you managed. How did you keep everything moving along in a timely manner?
-Sometimes it’s just not possible to get everything on your to-do list done. Tell me about a time your responsibilities got a little overwhelming. What did you do?
-Tell me about a time you set a goal for yourself. How did you go about ensuring that you would meet your objective?
-Give me an example of a time you managed numerous responsibilities. How did you handle that?
+- In other words, get ready to talk about a time you juggled multiple responsibilities, organized it all (perfectly), and completed everything before the deadline.
+- Tell me about a time you had to be very strategic in order to meet all your top priorities.
+- Describe a long-term project that you managed. How did you keep everything moving along in a timely manner?
+- Sometimes it’s just not possible to get everything on your to-do list done. Tell me about a time your responsibilities got a little overwhelming. What did you do?
+- Tell me about a time you set a goal for yourself. How did you go about ensuring that you would meet your objective?
+- Give me an example of a time you managed numerous responsibilities. How did you handle that?
  
 ### Communication Skills
 You probably won’t have any trouble thinking of a story for communication questions, since it’s not only part of most jobs; it’s part of everyday life. However, the thing to remember here is to also talk about your thought process or preparation.
