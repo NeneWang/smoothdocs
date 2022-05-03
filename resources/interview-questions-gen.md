@@ -82,64 +82,64 @@ exposure, what would she suggest?
 - If selected for this position, can you describe your strategy for the first 90 days?
 
 ## More About You:
-·  How would you describe your work style? 
-·  What would be your ideal working environment? 
-·  What do you look for in terms of culture -- structured or entrepreneurial? 
-·  Give examples of ideas you've had or implemented.
-·  What techniques and tools do you use to keep yourself organized?   
-·  If you had to choose one, would you consider yourself a big-picture person or a detail-oriented person?  
-·  Tell me about your proudest achievement.  
-·  Who was your favorite manager and why?  
-·  What do you think of your previous boss? 
-·  Was there a person in your career who really made a difference? 
-·  What kind of personality do you work best with and why?  
-·  What are you most proud of? 
-·  What do you like to do?  
-·  What are your lifelong dreams?  
-·  What do you ultimately want to become? 
-·  What is your personal mission statement?   
-·  What are three positive things your last boss would say about you?  
-·  What negative thing would your last boss say about you? 
-·  What three character traits would your friends use to describe you? 
-·  What are three positive character traits you don't have?  
-·  If you were interviewing someone for this position, what traits would you look for?  
-·  List five words that describe your character.   
-·  Who has impacted you most in your career and how? 
-·  What is your greatest fear? 
-·  What is your biggest regret and why?   
-·  What's the most important thing you learned in school? 
-·  Why did you choose your major?  
-·  What will you miss about your present/last job?  
-·  What is your greatest achievement outside of work?  
-·  What are the qualities of a good leader? A bad leader?  
-·  Do you think a leader should be feared or liked?     
-·  How do you feel about taking no for an answer?  
-·  How would you feel about working for someone who knows less than you? 
-·  How do you think I rate as an interviewer? 
-·  Tell me one thing about yourself you wouldn't want me to know.  
-·  Tell me the difference between good and exceptional.  
-·  What kind of car do you drive? 
-·  There's no right or wrong answer, but if you could be anywhere in the world right now, where would you be? 
-·  What's the last book you read?  
-·  What magazines do you subscribe to? 
-·  What's the best movie you've seen in the last year?  
-·  What would you do if you won the lottery? 
-·  Who are your heroes?
-·  What do you like to do for fun? 
-·  What do you do in your spare time? 
-·  What is your favorite memory from childhood? 
+-  How would you describe your work style? 
+-  What would be your ideal working environment? 
+-  What do you look for in terms of culture -- structured or entrepreneurial? 
+-  Give examples of ideas you've had or implemented.
+-  What techniques and tools do you use to keep yourself organized?   
+-  If you had to choose one, would you consider yourself a big-picture person or a detail-oriented person?  
+-  Tell me about your proudest achievement.  
+-  Who was your favorite manager and why?  
+-  What do you think of your previous boss? 
+-  Was there a person in your career who really made a difference? 
+-  What kind of personality do you work best with and why?  
+-  What are you most proud of? 
+-  What do you like to do?  
+-  What are your lifelong dreams?  
+-  What do you ultimately want to become? 
+-  What is your personal mission statement?   
+-  What are three positive things your last boss would say about you?  
+-  What negative thing would your last boss say about you? 
+-  What three character traits would your friends use to describe you? 
+-  What are three positive character traits you don't have?  
+-  If you were interviewing someone for this position, what traits would you look for?  
+-  List five words that describe your character.   
+-  Who has impacted you most in your career and how? 
+-  What is your greatest fear? 
+-  What is your biggest regret and why?   
+-  What's the most important thing you learned in school? 
+-  Why did you choose your major?  
+-  What will you miss about your present/last job?  
+-  What is your greatest achievement outside of work?  
+-  What are the qualities of a good leader? A bad leader?  
+-  Do you think a leader should be feared or liked?     
+-  How do you feel about taking no for an answer?  
+-  How would you feel about working for someone who knows less than you? 
+-  How do you think I rate as an interviewer? 
+-  Tell me one thing about yourself you wouldn't want me to know.  
+-  Tell me the difference between good and exceptional.  
+-  What kind of car do you drive? 
+-  There's no right or wrong answer, but if you could be anywhere in the world right now, where would you be? 
+-  What's the last book you read?  
+-  What magazines do you subscribe to? 
+-  What's the best movie you've seen in the last year?  
+-  What would you do if you won the lottery? 
+-  Who are your heroes?
+-  What do you like to do for fun? 
+-  What do you do in your spare time? 
+-  What is your favorite memory from childhood? 
 
 ## Brainteaser Questions
 
-·  How many times do a clock's hands overlap in a day?
-·  How would you weigh a plane without scales?
-·  Tell me 10 ways to use a pencil other than writing.
-·  Sell me this pencil.
-·  If you were an animal, which one would you want to be?
-·  Why is there fuzz on a tennis ball?
-·  If you could choose one superhero power, what would it be and why? 
-·  If you could get rid of any one of the US states, which one would you get rid of and why? 
-·  With your eyes closed, tell me step-by-step how to tie my shoes.
+-  How many times do a clock's hands overlap in a day?
+-  How would you weigh a plane without scales?
+-  Tell me 10 ways to use a pencil other than writing.
+-  Sell me this pencil.
+-  If you were an animal, which one would you want to be?
+-  Why is there fuzz on a tennis ball?
+-  If you could choose one superhero power, what would it be and why? 
+-  If you could get rid of any one of the US states, which one would you get rid of and why? 
+-  With your eyes closed, tell me step-by-step how to tie my shoes.
 
 
 ## 30 Behavioral Interview Questions You Should Be Ready to Answer
