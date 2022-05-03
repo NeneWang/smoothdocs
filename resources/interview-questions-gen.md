@@ -220,6 +220,26 @@ For questions like these, you want a story that illustrates your ability to work
 15. Where is the last person who held this job moving on to?
 16. Where have successful employees previously in this position progressed to?
 
+### Your Perfomance
+*Make sure you're setting yourself up for success by learning up front the goals of the position and how your work will be evaluated.*
+
+17. What are the most important things you’d like to see someone accomplish in the first 30, 60, and 90 days on the job?
+18. What are the performance expectations of this position over the first 12 months?
+19. What is the performance review process like here? How often would I be formally reviewed?
+20. What metrics or goals will my performance be evaluated against?
+### Interviewer
+*Asking questions of the interviewer shows that you're interested in him or her as a person—and that's a great way to build rapport.*
+
+21. How long have you been with the company?
+22. Has your role changed since you've been here?
+23. What did you do before this?
+24. Why did you come to this company?
+25. What’s your favorite part about working here?
+
+
+
+
+
 
 
 
