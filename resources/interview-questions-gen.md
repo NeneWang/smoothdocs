@@ -255,6 +255,34 @@ For questions like these, you want a story that illustrates your ability to work
 36. Which other departments work most closely with this one?
 37. What are the common career paths in this department?
 
+### The Culture
+*Is the office buttoned-up conservative or a fly-by-the-seat-of-your-pants kind of place? Learn the subtle, but oh-so-important, aspects of company culture.*
+38. What is the company and team culture like?
+39. How would you describe the work environment here—is the work typically collaborative or more independent?
+40. Can you tell me about the last team event you did together?
+41. Is there a formal mission statement or company values? (Note: Make sure this isn't Google-able!)
+42. What's your favorite office tradition?
+43. What do you and the team usually do for lunch?
+44. Does anyone on the team hang out outside the office?
+45. Do you ever do joint events with other companies or departments?
+46. What's different about working here than anywhere else you've worked?
+47. How has the company changed since you joined?
+
+### Next Steps
+*Before you leave, make sure the interviewer has all of the information he or she needs and that you're clear on the next steps by asking these questions.*
+48. Is there anything that concerns you about my background being a fit for this role?
+49. What are the next steps in the interview process?
+50. Is there anything else I can provide you with that would be helpful?
+51. Can I answer any final questions for you?
+
+
+
+
+
+
+
+
+
 
 
 
