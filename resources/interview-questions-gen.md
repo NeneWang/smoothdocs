@@ -151,11 +151,11 @@ Not sure how to answer these questions? Here’s a quick guide on how to craft j
 
 ### Teamwork
 For questions like these, you want a story that illustrates your ability to work with others under challenging circumstances. Think team conflict, difficult project constraints, or clashing personalities.
-Talk about a time when you had to work closely with someone whose personality was very different from yours.
-Give me an example of a time you faced a conflict while working on a team. How did you handle that?
-Describe a time when you struggled to build a relationship with someone important. How did you eventually overcome that?
-We all make mistakes we wish we could take back. Tell me about a time you wish you’d handled a situation differently with a colleague.
-Tell me about a time you needed to get information from someone who wasn’t very responsive. What did you do?
+- Talk about a time when you had to work closely with someone whose personality was very different from yours.
+- Give me an example of a time you faced a conflict while working on a team. How did you handle that?
+- Describe a time when you struggled to build a relationship with someone important. How did you eventually overcome that?
+- We all make mistakes we wish we could take back. Tell me about a time you wish you’d handled a situation differently with a colleague.
+- Tell me about a time you needed to get information from someone who wasn’t very responsive. What did you do?
  
 ### Client-Facing Skills
 If the role you’re interviewing for works with clients, definitely be ready for one of these. Find an example of a time where you successfully represented your company or team and delivered exceptional customer service.
