@@ -182,17 +182,17 @@ For questions like these, you want a story that illustrates your ability to work
 - Give me an example of a time you managed numerous responsibilities. How did you handle that?
  
 ### Communication Skills
-You probably won’t have any trouble thinking of a story for communication questions, since it’s not only part of most jobs; it’s part of everyday life. However, the thing to remember here is to also talk about your thought process or preparation.
-Give me an example of a time when you were able to successfully persuade someone to see things your way at work.
-Describe a time when you were the resident technical expert. What did you do to make sure everyone was able to understand you?
-Tell me about a time when you had to rely on written communication to get your ideas across to your team.
-Give me an example of a time when you had to explain something fairly complex to a frustrated client. How did you handle this delicate situation?
-Tell me about a successful presentation you gave and why you think it was a hit.
+- You probably won’t have any trouble thinking of a story for communication questions, since it’s not only part of most jobs; it’s part of everyday life. However, the thing to remember here is to also talk about your thought process or preparation.
+- Give me an example of a time when you were able to successfully persuade someone to see things your way at work.
+- Describe a time when you were the resident technical expert. What did you do to make sure everyone was able to understand you?
+- Tell me about a time when you had to rely on written communication to get your ideas across to your team.
+- Give me an example of a time when you had to explain something fairly complex to a frustrated client. How did you handle this delicate situation?
+- Tell me about a successful presentation you gave and why you think it was a hit.
  
 ### Motivation and Values
-A lot of seemingly random interview questions are actually attempts to learn more about what motivates you. Your response would ideally address this directly even if the question wasn’t explicit about it.
-Tell me about your proudest professional accomplishment.
-Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it.
-Tell me about a time when you worked under close supervision or extremely loose supervision. How did you handle that?
-Give me an example of a time you were able to be creative with your work. What was exciting or difficult about it?
-Tell me about a time you were dissatisfied in your work. What could have been done to make it better?
+- A lot of seemingly random interview questions are actually attempts to learn more about what motivates you. Your response would ideally address this directly even if the question wasn’t explicit about it.
+- Tell me about your proudest professional accomplishment.
+- Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it.
+- Tell me about a time when you worked under close supervision or extremely loose supervision. How did you handle that?
+- Give me an example of a time you were able to be creative with your work. What was exciting or difficult about it?- ll me about a time you were dissatisfied in your work. 
+- What could have been done to make it better?
