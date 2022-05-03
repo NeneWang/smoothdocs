@@ -236,6 +236,25 @@ For questions like these, you want a story that illustrates your ability to work
 24. Why did you come to this company?
 25. What’s your favorite part about working here?
 
+### The Company
+*Because you're not just working for one boss or one department, you're working for the company as a whole.*
+26. I've read about the company's founding, but can you tell me more about ___?
+27. Where do you see this company in the next few years?
+28. What can you tell me about your new products or plans for growth?
+29. What are the current goals that the company is focused on, and how does this team work to support hitting those goals?
+30. What gets you most excited about the company's future?
+
+### Team
+*The people you work with day in and day out can really make or break your work life. Ask some questions to uncover whether it's the right team for you.*
+
+31. Can you tell me about the team I’ll be working with?
+32. Who will I work with most closely?
+33. Who will I report to directly?
+34. Can you tell me about my direct reports? What are their strengths and the team's biggest challenges?
+35. Do you expect to hire more people in this department in the next six months?
+36. Which other departments work most closely with this one?
+37. What are the common career paths in this department?
+
 
 
 
