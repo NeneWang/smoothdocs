@@ -47,7 +47,7 @@ function findKthLargestValueInBst(tree, k) {
 
 <details>
 <summary>
- Javascript Solution
+ 👨‍🔬 Javascript Solution
 </summary>
 
 <div>
