@@ -15,7 +15,7 @@ problems and solutions in other pages.
 
 ## Basic Interview Questions
 
-  Tell me about yourself.
+- Tell me about yourself.
 - What are your strengths?
 - What are your weaknesses?
 - Why do you want this job?
