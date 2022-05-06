@@ -452,10 +452,11 @@ class BST {
 </details>
 
 
-## Longest Peak
-Write a function that takes in an array of integers and returns the length of
-the longest peak in the array.
-![](/img/2022-04-18-17-07-54.png)
+## Find Kth Largest Value in BST
+Write a function that takes in a Binary Search Tree (BST) and a positive integer `k` and returns the kth largest integer contained in the BST.
+
+![](../../static/img/2022-05-06-15-41-20.png)
+
 <details>
 <summary>
  Javascript Solution
@@ -471,22 +472,9 @@ the longest peak in the array.
 </details>
 
 
-## Longest Peak
-Write a function that takes in an array of integers and returns the length of
-the longest peak in the array.
-![](/img/2022-04-18-17-07-54.png)
-<details>
-<summary>
- Javascript Solution
-</summary>
-
-<div>
 
 
-```javascript
 
-```
-</div>
-</details>
+
 
 
