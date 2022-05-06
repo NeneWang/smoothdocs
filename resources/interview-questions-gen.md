@@ -257,6 +257,7 @@ For questions like these, you want a story that illustrates your ability to work
 
 ### The Culture
 *Is the office buttoned-up conservative or a fly-by-the-seat-of-your-pants kind of place? Learn the subtle, but oh-so-important, aspects of company culture.*
+
 38. What is the company and team culture like?
 39. How would you describe the work environment here—is the work typically collaborative or more independent?
 40. Can you tell me about the last team event you did together?
@@ -270,6 +271,7 @@ For questions like these, you want a story that illustrates your ability to work
 
 ### Next Steps
 *Before you leave, make sure the interviewer has all of the information he or she needs and that you're clear on the next steps by asking these questions.*
+
 48. Is there anything that concerns you about my background being a fit for this role?
 49. What are the next steps in the interview process?
 50. Is there anything else I can provide you with that would be helpful?
