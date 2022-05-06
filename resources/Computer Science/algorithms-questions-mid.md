@@ -453,6 +453,9 @@ class BST {
 
 
 ## Find Kth Largest Value in BST
+
+[👀 Algo Experts Link](https://www.algoexpert.io/questions/Find%20Kth%20Largest%20Value%20In%20BST)
+
 Write a function that takes in a Binary Search Tree (BST) and a positive integer `k` and returns the kth largest integer contained in the BST.
 
 ![](../../static/img/2022-05-06-15-41-20.png)
@@ -471,6 +474,29 @@ Write a function that takes in a Binary Search Tree (BST) and a positive integer
 </div>
 </details>
 
+
+## Reconstruct BST
+The pre-order traversal of a Binary Tree is a traversal technique that starts at the tree's root node and visits nodes in the following order:
+
+1. Current node
+2. Left subtree
+3. Right subtree
+![](../../static/img/2022-05-06-15-44-28.png)
+
+
+<details>
+<summary>
+ Javascript Solution
+</summary>
+
+<div>
+
+
+```javascript
+
+```
+</div>
+</details>
 
 
 
