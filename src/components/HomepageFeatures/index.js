@@ -69,7 +69,7 @@ export default function HomepageFeatures() {
             <tr>
               <td>May 11</td>
               <td>3:30 pm - 5:30 pm</td>
-              <td>Confirmed</td>
+              <td>Cancelled</td>
               <td><a target="_blank" href="https://zoom.us/my/afontenelle">Zoom</a></td>
               <td><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc760joQhO5pSklci85Lkxj9Ml4xeZel4HndROHPJQtHnPrVg/viewform?usp=sf_link">RSVP Link</a></td>
             </tr>
