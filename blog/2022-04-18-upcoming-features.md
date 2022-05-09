@@ -19,7 +19,7 @@ Upcoming Content
 
 | Content             | Status      |
 | ------------------- | ----------- |
-| Algorithm           | IN PROGRESS |
+| Algorithms          | IN PROGRESS |
 | Behavioural Answers | IN PROGRESS |
 | System design       | PENDING     |
 
