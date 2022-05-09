@@ -14,7 +14,17 @@ tags: [dev-blog]
 <details>
 <summary>
 Upcoming Content
+
+### Progress Table
+
+| Content             | Status      |
+| ------------------- | ----------- |
+| Algorithm           | IN PROGRESS |
+| Behavioural Answers | IN PROGRESS |
+| System design       | PENDING     |
+
 </summary>
+
 
 *This is limited to this bloggers area of experitize and or interests, if you
 want some specific upcoming content you can email to wangnelson2@gmail.com or
