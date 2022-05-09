@@ -17,11 +17,11 @@ Upcoming Content
 
 ### Progress Table
 
-| Content             | Status      |
-| ------------------- | ----------- |
-| Algorithms          | IN PROGRESS |
-| Behavioural Answers | IN PROGRESS |
-| System design       | PENDING     |
+| Content                  | Status      |
+| ------------------------ | ----------- |
+| Algorithms (Algoexperts) | IN PROGRESS |
+| Behavioural Answers      | IN PROGRESS |
+| System design            | PENDING     |
 
 </summary>
 
