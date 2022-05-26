@@ -28,6 +28,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          sortPosts: 'ascending',
           // Please change this to your repo.
           editUrl:
             'https://github.com/NeneWang/smoothdocs/tree/master',
