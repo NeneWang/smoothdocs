@@ -427,11 +427,18 @@ function postOrderTraverse(tree, array) {
 Write a function that takes in a non-empty sorted array of distinct integers,
 contructs a BST from the integers, and returns the root of the BST
 ![](/img/2022-04-20-22-58-09.png)
+
+
+
+https://replit.com/join/ffpqgpxtqr-nenewang
+
+https://www.algoexpert.io/questions/min-height-bst
+
+
 <details>
 <summary>
  Javascript Solution
 </summary>
-
 <div>
 
 
@@ -497,6 +504,7 @@ Write a function that takes in a Binary Search Tree (BST) and a positive integer
 <summary>
  Javascript Solution
 </summary>
+
 
 <div>
 
