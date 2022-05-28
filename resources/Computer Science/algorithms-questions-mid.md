@@ -10,11 +10,17 @@ title: Mid algorithm Questions
 Write a function that takes in an array of integers and returns the length of
 the longest peak in the array.
 ![](/img/2022-04-18-18-22-04.png)
+
 <details>
 <summary>
  Javascript Solution
 </summary>
 
+As you can see you first fit the the peak, and then start extending the peak
+sides (That's whjy it starts from the left to the right. which goes increasing
+or decreasing)
+
+![](/img/2022-04-18-17-17-44.png)
 <div>
 
 
@@ -56,17 +62,24 @@ function longestPeak(array) {
 
 
 
+
 ## Array of Products
 Write a function that takes in an array of integers and ran array of the same
 length, where each element in the output array is equal to the product of every
 other number in the input array
-![](/img/2022-04-18-18-22-56.png)
+
+![](/img/2022-04-18-17-28-38.png)
 <details>
 <summary>
  Javascript Solution
 </summary>
 
 <div>
+
+![](/img/2022-04-18-17-51-44.png)
+
+SO this solution is actually very simple, a nested loop with a ignore case if
+the i = j so it skips multiplying tiself. 
 
 
 ```javascript
@@ -90,7 +103,13 @@ exports.arrayOfProducts = arrayOfProducts;
 
 ```
 
-o(n) solution
+The o(n) solution is a little more interesting, this one 
+o(n) solution bases on the following clue: we can get all the multiplication in
+the right and the multiplications of all the values in the left we can get the
+multiplication of all the values except for the one there:
+
+![](/img/2022-04-18-18-10-10.png)
+
 ```javascript
 function arrayOfProducts(array){
     const products = new Array(array.length).fill(1);
@@ -111,7 +130,6 @@ function arrayOfProducts(array){
 
 }
 ```
-
 </div>
 </details>
 
@@ -129,7 +147,10 @@ appears more than once. (when the array is read from left to right)
 </summary>
 
 <div>
+This happens because you can understand exclusivelly that the array perfectly matches the size of the a to n condition where the values cannot be larger than the array size.
+Therefore you can use that property to maximize the effeciency.
 
+![](/img/2022-04-18-18-33-30.png)
 
 ```javascript
 function firstDuplicateValue(array) {
@@ -147,7 +168,6 @@ function firstDuplicateValue(array) {
 </details>
 
 
-
 ## Merge Overlapping Intervals
 
 Write a function that takes in a non-empty array of arbitrary intervals, merges
@@ -161,6 +181,10 @@ any overalapping intervals, and returns the new intervals in no particular order
 
 <div>
 
+![](/img/2022-04-18-18-48-33.png)
+
+You can see how the first interval always goes on the merge list, since her
+values can be modiyied given that it is an array.
 
 ```javascript
 function mergeOverlappingIntervals(intervals) {
@@ -188,7 +212,6 @@ function mergeOverlappingIntervals(intervals) {
 </details>
 
 
-
 ## BST Contruction
 Write a BST Class that supports `insert`, `remove`, and `contains` method
 ![](/img/2022-04-18-18-53-45.png)
@@ -199,6 +222,11 @@ Write a BST Class that supports `insert`, `remove`, and `contains` method
 
 <div>
 
+- You can observe how the first insertion recursively calls itself if it finds
+there is a value
+- Also how the contains values checks right and left and returns false, only
+  when it is null. It is optimized for binary search.
+- 
 
 ```javascript
 class BST {
@@ -298,8 +326,6 @@ exports.BST = BST;
 </div>
 </details>
 
-
-
 ## Validate BST
 Write a function that takes in a potentially invalid Binary Search Tree (BST)
 and returns a boolean representing whther the BST is valid.
@@ -311,6 +337,8 @@ and returns a boolean representing whther the BST is valid.
 
 <div>
 
+This is just about keep evaluating down the tree
+![](/img/2022-04-19-01-55-00.png)
 
 ```javascript
 class BST {
@@ -339,6 +367,8 @@ function validateBstHelper(tree, minValue, maxValue) {
 </div>
 </details>
 
+
+
 ## BST Traversal
 Write three functions that take in a Binary Search Tree (BST) and an empty
 array, traverse the BST, add its nodes' values to the input array, and returns
@@ -352,6 +382,10 @@ pre-order, and post-order tree-traversal techniques, respectively.
 </summary>
 
 <div>
+
+You can see here how the pre, post, in order traversals affect them.
+![](/img/2022-04-19-02-02-45.png)
+
 
 ```javascript
 function inOrderTraverse(tree, array) {
@@ -388,7 +422,6 @@ function postOrderTraverse(tree, array) {
 ```
 </div>
 </details>
-
 
 ## Min Height BST
 Write a function that takes in a non-empty sorted array of distinct integers,
