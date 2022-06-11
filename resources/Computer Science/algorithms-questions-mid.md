@@ -423,7 +423,7 @@ function postOrderTraverse(tree, array) {
 </div>
 </details>
 
-## 7 - Min Height BST
+## 8 - Min Height BST
 Write a function that takes in a non-empty sorted array of distinct integers,
 contructs a BST from the integers, and returns the root of the BST
 ![](/img/2022-04-20-22-58-09.png)
@@ -530,7 +530,7 @@ class BST {
 </details>
 
 
-## 8 - Find Kth Largest Value in BST
+## 9 - Find Kth Largest Value in BST
 
 [👀 Algo Experts Link](https://www.algoexpert.io/questions/Find%20Kth%20Largest%20Value%20In%20BST)
 
@@ -554,7 +554,7 @@ Write a function that takes in a Binary Search Tree (BST) and a positive integer
 </details>
 
 
-## 9 -  Reconstruct BST
+## 10 -  Reconstruct BST
 The pre-order traversal of a Binary Tree is a traversal technique that starts at the tree's root node and visits nodes in the following order:
 
 1. Current node
