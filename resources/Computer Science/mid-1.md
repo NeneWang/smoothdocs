@@ -699,7 +699,6 @@ function reconstructBst(preOrderTraversalValues) {
 
 ![](../../static/img/2022-06-12-02-17-29.png)
 
-![](../../static/img/2022-06-12-02-36-01.png)
 
 <iframe width="380" height="420" src="https://www.youtube.com/embed/9kDaGmTZhVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
