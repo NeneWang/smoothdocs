@@ -1,9 +1,8 @@
 ---
 sidebar_position: 2
-title: Mid algorithm Questions - 1
+title: Medium Algorithms Questions - 1
 ---
 
-# Medium Algorithms Questions
 
 
 ## 1- Longest Peak
