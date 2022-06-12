@@ -610,7 +610,7 @@ function inOrderTraverse(node, sortedTreeValues){
 
 <div>
 
-<iframe width="380" height="420" src="https://www.youtube.com/embed/iG2ggO7S664" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+<iframe width="380" height="420" src="https://www.youtube.com/embed/HOwNahYf9og" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 
 ```javascript
@@ -667,8 +667,29 @@ The pre-order traversal of a Binary Tree is a traversal technique that starts at
 1. Current node
 2. Left subtree
 3. Right subtree
+
+
 ![](../../static/img/2022-05-06-15-44-28.png)
 
+
+**Starter Code**
+
+```js
+// This is an input class. Do not edit.
+class BST {
+  constructor(value, left = null, right = null) {
+    this.value = value;
+    this.left = left;
+    this.right = right;
+  }
+}
+
+function reconstructBst(preOrderTraversalValues) {
+  // Write your code here.
+  return null;
+}
+
+```
 
 <details>
 <summary>
@@ -677,7 +698,11 @@ The pre-order traversal of a Binary Tree is a traversal technique that starts at
 
 <div>
 
-<iframe width="380" height="420" src="https://www.youtube.com/embed/FM3KSLJb1BY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+![](../../static/img/2022-06-12-02-17-29.png)
+
+![](../../static/img/2022-06-12-02-36-01.png)
+
+<iframe width="380" height="420" src="https://www.youtube.com/embed/9kDaGmTZhVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 ```javascript
 // This is an input class. Do not edit.
