@@ -1,12 +1,12 @@
 ---
 sidebar_position: 2
-title: Mid algorithm Questions
+title: Mid algorithm Questions - 1
 ---
 
 # Medium Algorithms Questions
 
 
-## Longest Peak
+## 1- Longest Peak
 Write a function that takes in an array of integers and returns the length of
 the longest peak in the array.
 ![](/img/2022-04-18-18-22-04.png)
@@ -63,7 +63,7 @@ function longestPeak(array) {
 
 
 
-## Array of Products
+## 2 - Array of Products
 Write a function that takes in an array of integers and ran array of the same
 length, where each element in the output array is equal to the product of every
 other number in the input array
@@ -135,7 +135,7 @@ function arrayOfProducts(array){
 
 
 
-## First Duplicate Value
+## 3 - First Duplicate Value
 Given an array of integers between `a` and `n`, inclusive, where `n` is the
 length of the array, write a function that returns the first integer that
 appears more than once. (when the array is read from left to right)
@@ -168,7 +168,7 @@ function firstDuplicateValue(array) {
 </details>
 
 
-## Merge Overlapping Intervals
+## 4 - Merge Overlapping Intervals
 
 Write a function that takes in a non-empty array of arbitrary intervals, merges
 any overalapping intervals, and returns the new intervals in no particular order.
@@ -212,7 +212,7 @@ function mergeOverlappingIntervals(intervals) {
 </details>
 
 
-## BST Contruction
+## 5 - BST Contruction
 Write a BST Class that supports `insert`, `remove`, and `contains` method
 ![](/img/2022-04-18-18-53-45.png)
 <details>
@@ -326,7 +326,7 @@ exports.BST = BST;
 </div>
 </details>
 
-## Validate BST
+## 6 - Validate BST
 Write a function that takes in a potentially invalid Binary Search Tree (BST)
 and returns a boolean representing whther the BST is valid.
 ![](/img/2022-04-19-01-51-02.png)
@@ -369,7 +369,7 @@ function validateBstHelper(tree, minValue, maxValue) {
 
 
 
-## BST Traversal
+## 7 - BST Traversal
 Write three functions that take in a Binary Search Tree (BST) and an empty
 array, traverse the BST, add its nodes' values to the input array, and returns
 that array. The three functions should traverse the BST using the in-order,
@@ -423,16 +423,52 @@ function postOrderTraverse(tree, array) {
 </div>
 </details>
 
-## Min Height BST
+## 7 - Min Height BST
 Write a function that takes in a non-empty sorted array of distinct integers,
 contructs a BST from the integers, and returns the root of the BST
 ![](/img/2022-04-20-22-58-09.png)
 
+Starter Code
 
+```javascript
+function minHeightBst(array) {
+  // Write your code here.
+}
+
+class BST {
+  constructor(value) {
+    this.value = value;
+    this.left = null;
+    this.right = null;
+  }
+
+  insert(value) {
+    if (value < this.value) {
+      if (this.left === null) {
+        this.left = new BST(value);
+      } else {
+        this.left.insert(value);
+      }
+    } else {
+      if (this.right === null) {
+        this.right = new BST(value);
+      } else {
+        this.right.insert(value);
+      }
+    }
+  }
+}
+
+// Do not edit the line below.
+exports.minHeightBst = minHeightBst;
+
+
+```
 
 https://replit.com/join/ffpqgpxtqr-nenewang
 
 https://www.algoexpert.io/questions/min-height-bst
+
 
 
 <details>
@@ -440,6 +476,8 @@ https://www.algoexpert.io/questions/min-height-bst
  Javascript Solution
 </summary>
 <div>
+
+<iframe width="380" height="420" src="https://www.youtube.com/embed/FM3KSLJb1BY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 
 ```javascript
@@ -470,7 +508,7 @@ class BST {
     this.right = null;
   }
 
-  insert(value) {****
+  insert(value) {
     if (value < this.value) {
       if (this.left === null) {
         this.left = new BST(value);
@@ -492,7 +530,7 @@ class BST {
 </details>
 
 
-## Find Kth Largest Value in BST
+## 8 - Find Kth Largest Value in BST
 
 [👀 Algo Experts Link](https://www.algoexpert.io/questions/Find%20Kth%20Largest%20Value%20In%20BST)
 
@@ -516,7 +554,7 @@ Write a function that takes in a Binary Search Tree (BST) and a positive integer
 </details>
 
 
-## Reconstruct BST
+## 9 -  Reconstruct BST
 The pre-order traversal of a Binary Tree is a traversal technique that starts at the tree's root node and visits nodes in the following order:
 
 1. Current node
