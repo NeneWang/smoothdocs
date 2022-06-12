@@ -4,17 +4,28 @@ title: Medium Algorithms - 2
 ---
 
 
+## 11 -  Invert Binary Tree
 
-## 11 -  Reconstruct
-Description
+Write a function that takes in a Binary Tree and inverts it. In other words, the function should swap every left node in the tree for its corresponding right node.
 
-![](../../static/img/2022-05-06-15-44-28.png)
+![](../../static/img/2022-06-12-11-26-16.png)
 
 
 **Starter Code**
 
 ```js
-starter Code
+function invertBinaryTree(tree) {
+  // Write your code here.
+}
+
+// This is the class of the input binary tree.
+class BinaryTree {
+  constructor(value) {
+    this.value = value;
+    this.left = null;
+    this.right = null;
+  }
+}
 
 ```
 
@@ -31,7 +42,27 @@ starter Code
 <iframe width="380" height="420" src="https://www.youtube.com/embed/9kDaGmTZhVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 ```javascript
-Solution Code
+
+function invertBinaryTree(tree) {
+    // Write your code here.
+    const queue = [tree];
+    while (queue.length) {
+        const current = queue.shift();
+        if (current === null) continue;
+        swapLeftAndRight(current);
+        queue.push(current.left);
+        queue.push(current.right);
+    }
+
+
+
+}
+
+function swapLeftAndRight(tree) {
+    const left = tree.left;
+    tree.left = tree.right;
+    tree.right = left;
+}
 }
 
 ```

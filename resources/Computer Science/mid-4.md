@@ -6,8 +6,9 @@ title: Medium Algorithms - 4
 
 
 
-## 11 -  Reconstruct
-Description
+## 11 -  Invert Binary Tree
+
+Write a function
 
 ![](../../static/img/2022-05-06-15-44-28.png)
 
