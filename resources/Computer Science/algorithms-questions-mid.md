@@ -538,16 +538,60 @@ Write a function that takes in a Binary Search Tree (BST) and a positive integer
 
 ![](../../static/img/2022-05-06-15-41-20.png)
 
+**Starter Code**
+```js
+// This is an input class. Do not edit.
+class BST {
+  constructor(value) {
+    this.value = value;
+    this.left = null;
+    this.right = null;
+  }
+}
+
+function findKthLargestValueInBst(tree, k) {
+  // Write your code here.
+  return -1;
+}
+
+
+```
+
+
 <details>
 <summary>
  Javascript Solution
 </summary>
 
+![](../../static/img/2022-06-12-01-07-11.png)
 
 <div>
 
 
 ```javascript
+// This is an input class. Do not edit.
+class BST {
+  constructor(value) {
+    this.value = value;
+    this.left = null;
+    this.right = null;
+  }
+}
+
+function findKthLargestValueInBst(tree, k) {
+    const sortedNodeValues = [];
+    inOrderTraverse(tree, sortedNodeValues);
+    return sortedNodeValues[sortedNodeValues.length - k];
+}
+
+function inOrderTraverse(node, sortedTreeValues){
+    if(node === null) return;
+    inOrderTraverse(node.left, sortedTreeValues);
+    sortedTreeValues.push(node.value);
+    inOrderTraverse(node.right, sortedTreeValues);
+    
+}
+
 
 ```
 </div>
