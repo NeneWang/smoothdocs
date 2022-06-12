@@ -72,53 +72,29 @@ function swapLeftAndRight(tree) {
 
 
 
-## 11 -  Reconstruct
-Description
+## 12 -  Binary Tree Diameter
 
-![](../../static/img/2022-05-06-15-44-28.png)
+Write a function that takes in a Binary Tree and returns its diameter. The diameter of a binary tree is defined as the lenfth of its longest pat, even if that path doesn't pass through the root of the tree.
+
+![](../../static/img/2022-06-12-11-57-43.png)
 
 
 **Starter Code**
 
 ```js
-starter Code
-
-```
-
-<details>
-<summary>
- 👨‍🔬 Javascript Solution
-</summary>
-
-<div>
-
-![](../../static/img/2022-06-12-02-17-29.png)
-
-
-<iframe width="380" height="420" src="https://www.youtube.com/embed/9kDaGmTZhVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
-
-```javascript
-Solution Code
+// This is an input class. Do not edit.
+class BinaryTree {
+  constructor(value) {
+    this.value = value;
+    this.left = null;
+    this.right = null;
+  }
 }
 
-```
-</div>
-</details>
-
-
-
-
-
-## 12 -  Reconstruct
-Description
-
-![](../../static/img/2022-05-06-15-44-28.png)
-
-
-**Starter Code**
-
-```js
-starter Code
+function binaryTreeDiameter(tree) {
+  // Write your code here.
+  return -1;
+}
 
 ```
 
