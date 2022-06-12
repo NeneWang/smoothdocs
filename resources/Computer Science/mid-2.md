@@ -36,10 +36,10 @@ class BinaryTree {
 
 <div>
 
-![](../../static/img/2022-06-12-02-17-29.png)
+![](../../static/img/2022-06-12-12-00-37.png)
 
 
-<iframe width="380" height="420" src="https://www.youtube.com/embed/9kDaGmTZhVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+<iframe width="380" height="420" src="https://www.youtube.com/embed/pqWXSxn-4oM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 ```javascript
 
@@ -74,7 +74,7 @@ function swapLeftAndRight(tree) {
 
 ## 12 -  Binary Tree Diameter
 
-Write a function that takes in a Binary Tree and returns its diameter. The diameter of a binary tree is defined as the lenfth of its longest pat, even if that path doesn't pass through the root of the tree.
+Write a function that takes in a Binary Tree and returns its diameter. The diameter of a binary tree is defined as the length of its longest path, even if that path doesn't pass through the root of the tree.
 
 ![](../../static/img/2022-06-12-11-57-43.png)
 
