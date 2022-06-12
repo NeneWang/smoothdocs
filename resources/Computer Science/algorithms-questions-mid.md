@@ -470,7 +470,7 @@ class BST {
     this.right = null;
   }
 
-  insert(value) {
+  insert(value) {****
     if (value < this.value) {
       if (this.left === null) {
         this.left = new BST(value);
