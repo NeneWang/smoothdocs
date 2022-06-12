@@ -560,7 +560,7 @@ function findKthLargestValueInBst(tree, k) {
 
 <details>
 <summary>
- Javascript Solution
+ Javascript Solution (Naive)
 </summary>
 
 ![](../../static/img/2022-06-12-01-07-11.png)
@@ -600,6 +600,67 @@ function inOrderTraverse(node, sortedTreeValues){
 </details>
 
 
+
+<details>
+<summary>
+ Javascript Solution (Efficient)
+</summary>
+
+![](../../static/img/2022-06-12-01-47-32.png)
+
+<div>
+
+<iframe width="380" height="420" src="https://www.youtube.com/embed/iG2ggO7S664" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+
+
+```javascript
+// This is an input class. Do not edit.// This is an input class. Do not edit.
+class BST {
+  constructor(value) {
+    this.value = value;
+    this.left = null;
+    this.right = null;
+  }
+}
+
+class TreeInfo{
+
+  constructor(travesalN, lastNode){
+    this.travesalN = travesalN;
+    this.lastNode = lastNode;
+  }
+  
+}
+
+function findKthLargestValueInBst(tree, k) {
+  const treeInfo = new TreeInfo(0, -1)
+  reverseOrderTravesal(tree, treeInfo, k)
+  return treeInfo.lastNode;
+}
+
+
+function reverseOrderTravesal(node, treeInfo, k){
+  if(node==null || treeInfo.travesalN >= k){
+    return
+  }
+  // right
+  reverseOrderTravesal(node.right, treeInfo, k)
+  // Do something
+  if(treeInfo.travesalN < k){
+    treeInfo.travesalN++
+    treeInfo.lastNode = node.value
+  }
+  
+  // Left
+  reverseOrderTravesal(node.left, treeInfo, k)
+}
+
+
+```
+</div>
+</details>
+
+
 ## 10 -  Reconstruct BST
 The pre-order traversal of a Binary Tree is a traversal technique that starts at the tree's root node and visits nodes in the following order:
 
@@ -620,27 +681,34 @@ The pre-order traversal of a Binary Tree is a traversal technique that starts at
 
 ```javascript
 // This is an input class. Do not edit.
+// This is an input class. Do not edit.
 class BST {
-  constructor(value) {
+  constructor(value, left = null, right = null) {
     this.value = value;
-    this.left = null;
-    this.right = null;
+    this.left = left;
+    this.right = right;
   }
 }
 
-function findKthLargestValueInBst(tree, k) {
-    const sortedNodeValues = [];
-    inOrderTraverse(tree, sortedNodeValues);
-    return sortedNodeValues[sortedNodeValues.length - k];
+function reconstructBst(preOrderTraversalValues) {
+
+    if (preOrderTraversalValues.length === 0) return null;
+
+    const currentValue = preOrderTraversalValues[0];
+    let rightSubtreeRootIdx = preOrderTraversalValues.length;
+
+    for (let idx = 1; idx < preOrderTraversalValues.length; idx++) {
+        const value = preOrderTraversalValues[idx];
+        if (value >= currentValue) {
+            rightSubtreeRootIdx = idx;
+            break;
+        }
+    }
+    const leftSubtree = reconstructBst(preOrderTraversalValues.slice(1, rightSubtreeRootIdx));
+    const rightSubtree = reconstructBst(preOrderTraversalValues.slice(rightSubtreeRootIdx));
+    return new BST(currentValue, leftSubtree, rightSubtree);
 }
 
-function inOrderTraverse(node, sortedTreeValues){
-    if(node === null) return;
-    inOrderTraverse(node.left, sortedTreeValues);
-    sortedTreeValues.push(node.value);
-    inOrderTraverse(node.right, sortedTreeValues);
-    
-}
 ```
 </div>
 </details>
