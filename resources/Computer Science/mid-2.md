@@ -122,10 +122,10 @@ Solution Code
 
 
 
-## 13 -  Reconstruct
-Description
+## 13 -  Find Successor
+Write a fucntion that takes in a Binary Tree ( Where nodes have an additional pointer to their parend node) as welll as a node contained in that tree and return the given node's successor.
 
-![](../../static/img/2022-05-06-15-44-28.png)
+![](../../static/img/2022-06-13-22-14-45.png)
 
 
 **Starter Code**
