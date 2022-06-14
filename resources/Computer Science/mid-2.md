@@ -131,7 +131,20 @@ Write a fucntion that takes in a Binary Tree ( Where nodes have an additional po
 **Starter Code**
 
 ```js
-starter Code
+// This is an input class. Do not edit.
+class BinaryTree {
+  constructor(value) {
+    this.value = value;
+    this.left = null;
+    this.right = null;
+    this.parent = null;
+  }
+}
+
+function findSuccessor(tree, node) {
+  // Write your code here.
+  return null;
+}
 
 ```
 
@@ -148,11 +161,73 @@ starter Code
 <iframe width="380" height="420" src="https://www.youtube.com/embed/9kDaGmTZhVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 ```javascript
-Solution Code
+class BinaryTree {
+    constructor(value) {
+        this.value = value;
+        this.left = null;
+        this.right = null;
+        this.parent = null;
+    }
+}
+
+function findSuccessor(tree, node) {
+    const inOrderTraversalOrder = getInOrderTraversalOrder(tree);
+
+    for (let idx = 0; idx < inOrderTraversalOrder.length; idx++) {
+        const currentNode = inOrderTraversalOrder[idx];
+        if (currentNode !== node) continue;
+
+        if (idx === inOrderTraversalOrder.length - 1) return null;
+
+        return inOrderTraversalOrder[idx + 1];
+    }
+}
+
+function getInOrderTraversalOrder(node, order = []) {
+    if (node === null) return order;
+    getInOrderTraversalOrder(node.left, order);
+    order.push(node);
+    getInOrderTraversalOrder(node.right, order);
+
+    return order;
+}
+```
+</div>
+</details>
+
+<details>
+
+<summary>
+Advanced Solution
+</summary>
+
+```js
+
+function findSuccessor(tree, node) {
+    if (node.right !== null) return getLeftMostChild(node.right);
+    return getRightMostParent(node);
+}
+
+
+function getLeftMostChild(node){
+    let currentNode = node;
+    while(currentNode.left !== null){
+        currentNode = currentNode.left;
+    }
+
+    return currentNode;
+}
+
+function getRightMostParent(node) {
+    let currentNode = node;
+    while (currentNode.parent !== null && currentNode.parent.right == currentNode) {
+        currentNode = currentNode.parent;
+    }
+    return currentNode.parent;
 }
 
 ```
-</div>
+
 </details>
 
 
