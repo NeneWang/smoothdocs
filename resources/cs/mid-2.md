@@ -235,15 +235,33 @@ function getRightMostParent(node) {
 
 
 ## 18 -  Height Balanced Binary Tree
-Description
 
-![](../../static/img/2022-05-06-15-44-28.png)
+You're given the root node of a Binary Tree. Write a function that returns `true` if this Binary Tree is height balanced and `false` if it isn't
+
+![](../../static/img/2022-06-23-01-36-11.png)
 
 
 **Starter Code**
 
 ```js
-starter Code
+// This is an input class. Do not edit.
+class BinaryTree {
+  constructor(value) {
+    this.value = value;
+    this.left = null;
+    this.right = null;
+  }
+}
+
+function heightBalancedBinaryTree(tree) {
+  // Write your code here.
+  return false;
+}
+
+// Do not edit the lines below.
+exports.BinaryTree = BinaryTree;
+exports.heightBalancedBinaryTree = heightBalancedBinaryTree;
+
 
 ```
 
@@ -257,10 +275,43 @@ starter Code
 ![](../../static/img/2022-06-12-02-17-29.png)
 
 
-<iframe width="380" height="420" src="https://www.youtube.com/embed/9kDaGmTZhVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+<iframe width="380" height="420" src="https://www.youtube.com/embed/ofSsDWpqfZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 ```javascript
-Solution Code
+class BinaryTree {
+    constructor(value) {
+        this.value = value;
+        this.left = null;
+        this.right = null;
+    }
+}
+
+class TreeInfo {
+    constructor(isBalanced, height) {
+        this.isBalanced = isBalanced;
+        this.height = height;
+    }
+}
+
+function heightBalancedBinaryTree(tree) {
+    const treeInfo = getTreeInfo(tree);
+    return treeInfo.isBalanced;
+}
+
+function getTreeInfo(node) {
+    if (node === null) return new TreeInfo(true, -1);
+    const leftSubtreeInfo = getTreeInfo(node.left);
+    const rightSubtreeInfo = getTreeInfo(node.right);
+
+    const isBalanced = leftSubtreeInfo.isBalanced && rightSubtreeInfo.isBalanced && Math.abs(leftSubtreeInfo.height - rightSubtreeInfo.height) <=1;
+	const height = Math.max(leftSubtreeInfo.height, rightSubtreeInfo.height) + 1;
+    return new TreeInfo(isBalanced, height);
+
+}
+// Do not edit the lines below.
+exports.BinaryTree = BinaryTree;
+exports.heightBalancedBinaryTree = heightBalancedBinaryTree;
+
 }
 
 ```
