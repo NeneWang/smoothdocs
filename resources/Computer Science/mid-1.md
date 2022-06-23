@@ -5,7 +5,7 @@ title: Medium Algorithms - 1
 
 
 
-## 1- Longest Peak
+## 6- Longest Peak
 Write a function that takes in an array of integers and returns the length of
 the longest peak in the array.
 ![](/img/2022-04-18-18-22-04.png)
@@ -62,7 +62,7 @@ function longestPeak(array) {
 
 
 
-## 2 - Array of Products
+## 7 - Array of Products
 Write a function that takes in an array of integers and ran array of the same
 length, where each element in the output array is equal to the product of every
 other number in the input array
@@ -134,7 +134,7 @@ function arrayOfProducts(array){
 
 
 
-## 3 - First Duplicate Value
+## 8 - First Duplicate Value
 Given an array of integers between `a` and `n`, inclusive, where `n` is the
 length of the array, write a function that returns the first integer that
 appears more than once. (when the array is read from left to right)
@@ -167,7 +167,7 @@ function firstDuplicateValue(array) {
 </details>
 
 
-## 4 - Merge Overlapping Intervals
+## 9 - Merge Overlapping Intervals
 
 Write a function that takes in a non-empty array of arbitrary intervals, merges
 any overalapping intervals, and returns the new intervals in no particular order.
@@ -211,7 +211,7 @@ function mergeOverlappingIntervals(intervals) {
 </details>
 
 
-## 5 - BST Contruction
+## 10 - BST Contruction
 Write a BST Class that supports `insert`, `remove`, and `contains` method
 ![](/img/2022-04-18-18-53-45.png)
 <details>
@@ -325,7 +325,7 @@ exports.BST = BST;
 </div>
 </details>
 
-## 6 - Validate BST
+## 11 - Validate BST
 Write a function that takes in a potentially invalid Binary Search Tree (BST)
 and returns a boolean representing whther the BST is valid.
 ![](/img/2022-04-19-01-51-02.png)
@@ -368,7 +368,7 @@ function validateBstHelper(tree, minValue, maxValue) {
 
 
 
-## 7 - BST Traversal
+## 12 - BST Traversal
 Write three functions that take in a Binary Search Tree (BST) and an empty
 array, traverse the BST, add its nodes' values to the input array, and returns
 that array. The three functions should traverse the BST using the in-order,
@@ -422,7 +422,7 @@ function postOrderTraverse(tree, array) {
 </div>
 </details>
 
-## 8 - Min Height BST
+## 13 - Min Height BST
 Write a function that takes in a non-empty sorted array of distinct integers,
 contructs a BST from the integers, and returns the root of the BST
 ![](/img/2022-04-20-22-58-09.png)
@@ -529,7 +529,7 @@ class BST {
 </details>
 
 
-## 9 - Find Kth Largest Value in BST
+## 14 - Find Kth Largest Value in BST
 
 [👀 Algo Experts Link](https://www.algoexpert.io/questions/Find%20Kth%20Largest%20Value%20In%20BST)
 
@@ -660,7 +660,7 @@ function reverseOrderTravesal(node, treeInfo, k){
 </details>
 
 
-## 10 -  Reconstruct BST
+## 15 -  Reconstruct BST
 The pre-order traversal of a Binary Tree is a traversal technique that starts at the tree's root node and visits nodes in the following order:
 
 1. Current node

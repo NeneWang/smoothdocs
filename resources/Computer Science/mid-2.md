@@ -4,7 +4,7 @@ title: Medium Algorithms - 2
 ---
 
 
-## 11 -  Invert Binary Tree
+## 16 -  Invert Binary Tree
 
 Write a function that takes in a Binary Tree and inverts it. In other words, the function should swap every left node in the tree for its corresponding right node.
 
@@ -72,7 +72,7 @@ function swapLeftAndRight(tree) {
 
 
 
-## 12 -  Binary Tree Diameter
+## 17 -  Binary Tree Diameter
 
 Write a function that takes in a Binary Tree and returns its diameter. The diameter of a binary tree is defined as the length of its longest path, even if that path doesn't pass through the root of the tree.
 
