@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksmoothdocs=self.webpackChunksmoothdocs||[]).push([[77],{7832:function(o){o.exports=JSON.parse('{"permalink":"/blog/tags/my-answers","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
