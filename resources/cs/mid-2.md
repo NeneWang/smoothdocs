@@ -122,7 +122,7 @@ Solution Code
 
 
 
-## 13 -  Find Successor
+## 17b -  Find Successor
 Write a fucntion that takes in a Binary Tree ( Where nodes have an additional pointer to their parend node) as welll as a node contained in that tree and return the given node's successor.
 
 ![](../../static/img/2022-06-13-22-14-45.png)
@@ -234,7 +234,7 @@ function getRightMostParent(node) {
 
 
 
-## 14 -  Reconstruct
+## 18 -  Height Balanced Binary Tree
 Description
 
 ![](../../static/img/2022-05-06-15-44-28.png)
@@ -271,7 +271,7 @@ Solution Code
 
 
 
-## 15 -  Reconstruct
+## 19 -  Max Subset Sum No Adjacent
 Description
 
 ![](../../static/img/2022-05-06-15-44-28.png)
@@ -308,7 +308,7 @@ Solution Code
 
 
 
-## 16 -  Reconstruct
+## 20 -  Number of Ways to Make Change
 Description
 
 ![](../../static/img/2022-05-06-15-44-28.png)
@@ -345,7 +345,7 @@ Solution Code
 
 
 
-## 17 -  Reconstruct
+## 21 -  Min Number of Coins for Change
 Description
 
 ![](../../static/img/2022-05-06-15-44-28.png)
@@ -382,7 +382,7 @@ Solution Code
 
 
 
-## 18 -  Reconstruct
+## 22 -  Levenshtein Distance
 Description
 
 ![](../../static/img/2022-05-06-15-44-28.png)
@@ -419,7 +419,7 @@ Solution Code
 
 
 
-## 19 -  Reconstruct
+## 23 -  Kadane's Algorithm
 Description
 
 ![](../../static/img/2022-05-06-15-44-28.png)
@@ -457,7 +457,7 @@ Solution Code
 
 
 
-## 20 -  Reconstruct
+## 24 -  Single Cycle Check
 Description
 
 ![](../../static/img/2022-05-06-15-44-28.png)
