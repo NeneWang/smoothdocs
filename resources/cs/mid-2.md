@@ -361,15 +361,21 @@ Solution Code
 
 
 ## 20 -  Number of Ways to Make Change
-Description
 
-![](../../static/img/2022-05-06-15-44-28.png)
+Given an array of distinc positive integers representing coin denominations and a single non-negative integer `n` representing a target amount of money, write a function that returns the number of ways to make change for that target amount using hte given coin denominations.
+- Note that an unlimited amount of coins is at your disposal
+
+![](../../static/img/2022-06-25-22-43-52.png)
 
 
 **Starter Code**
 
 ```js
-starter Code
+
+function numberOfWaysToMakeChange(n, denoms) {
+  // Write your code here.
+}
+
 
 ```
 
@@ -380,13 +386,24 @@ starter Code
 
 <div>
 
-![](../../static/img/2022-06-12-02-17-29.png)
 
 
 <iframe width="380" height="420" src="https://www.youtube.com/embed/9kDaGmTZhVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 ```javascript
-Solution Code
+
+function numberOfWaysToMakeChange(n, denoms) {
+    const ways = new Array(n + 1).fill(0);
+    ways[0] = 1;
+    for (let denom of denoms) {
+        for (let amount = 1; amount < n + 1; amount++) {
+            if (denom <= amount) ways[amount] += ways[amount - denom];
+        }
+    }
+    return ways[n];
+
+}
+
 }
 
 ```
