@@ -323,9 +323,10 @@ exports.heightBalancedBinaryTree = heightBalancedBinaryTree;
 
 
 ## 19 -  Max Subset Sum No Adjacent
-Description
 
-![](../../static/img/2022-05-06-15-44-28.png)
+Write a function that takes in an array of positive integers and returns the maximum sum of non-adjacent elements in the array.
+
+![](../../static/img/2022-06-23-02-40-44.png)
 
 
 **Starter Code**
