@@ -332,7 +332,10 @@ Write a function that takes in an array of positive integers and returns the max
 **Starter Code**
 
 ```js
-starter Code
+
+function maxSubsetSumNoAdjacent(array) {
+  // Write your code here.
+}
 
 ```
 
@@ -349,8 +352,18 @@ starter Code
 <iframe width="380" height="420" src="https://www.youtube.com/embed/9kDaGmTZhVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 ```javascript
-Solution Code
+function maxSubsetSumNoAdjacent(array) {
+    if (!array.length) return 0;
+    if (array.length === 1) return array[0];
+
+    const maxSums = array.slice();
+    maxSums[1] = Math.max(array[0], array[1]);
+    for (let i = 2; i < array.length; i++) {
+        maxSums[i] = Math.max(maxSums[i - 1], maxSums[i - 2] + array[i]);
+    }
+    return maxSums[maxSums.length - 1];
 }
+
 
 ```
 </div>
@@ -388,7 +401,7 @@ function numberOfWaysToMakeChange(n, denoms) {
 
 
 
-<iframe width="380" height="420" src="https://www.youtube.com/embed/9kDaGmTZhVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+<iframe width="380" height="420" src="https://www.youtube.com/embed/mSCleaTGP2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 ```javascript
 
