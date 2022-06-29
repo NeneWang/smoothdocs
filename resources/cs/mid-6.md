@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: Medium Algorithms - 6
+title: Mid AlgoExp - 6
 ---
 
 
