@@ -474,6 +474,10 @@ There are three edit operations:
 - Deletion of a character
 - Substitution of a character
 
+**How I would solve this**
+1. Try computing all potential changes from abc and yabd
+2. 
+
 
 ![](../../static/img/2022-06-29-01-20-53.png)
 
@@ -500,7 +504,7 @@ function levenshteinDistance(str1, str2) {
 - We can create a table to compare which is the distance between them
 
 
-<iframe width="380" height="420" src="https://www.youtube.com/embed/9kDaGmTZhVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
+<iframe width="380" height="420" src="https://www.youtube.com/embed/8V1q-eT2NoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 ```javascript
 
