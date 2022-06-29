@@ -428,7 +428,8 @@ function numberOfWaysToMakeChange(n, denoms) {
 
 
 ## 21 -  Min Number of Coins for Change
-Description
+
+Given an Array of Positive single non-negative integer `n` representing a target amount of money, wirte a function...
 
 ![](../../static/img/2022-05-06-15-44-28.png)
 
@@ -465,15 +466,27 @@ Solution Code
 
 
 ## 22 -  Levenshtein Distance
-Description
 
-![](../../static/img/2022-05-06-15-44-28.png)
+Write a function that takes in two strings and returns the minimum number of edit operations that need to be performed on the first string to obtain the second string.
+
+There are three edit operations: 
+- Insertion fo a character
+- Deletion of a character
+- Substitution of a character
+
+
+![](../../static/img/2022-06-29-01-20-53.png)
 
 
 **Starter Code**
 
 ```js
-starter Code
+
+
+function levenshteinDistance(str1, str2) {
+
+}
+
 
 ```
 
@@ -484,14 +497,40 @@ starter Code
 
 <div>
 
-![](../../static/img/2022-06-12-02-17-29.png)
+- We can create a table to compare which is the distance between them
 
 
 <iframe width="380" height="420" src="https://www.youtube.com/embed/9kDaGmTZhVI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>
 
 ```javascript
-Solution Code
+
+function levenshteinDistance(str1, str2) {
+    const edits = [];
+    for (let i = 0; i < str2.length + 1; i++) {
+        const row = [];
+        for (let j = 0; j < str1.length + 1; j++) {
+            row.push(j);
+        }
+
+        row[0] = i;
+        edits.push(row);
+    }
+
+    for (let i = 1; i < str2.length + 1; i++) {
+        for (let j = 1; j < str1.length + 1; j++) {
+            if (str2[i - 1] === str1[j - 1]) {
+                edits[i][j] = edits[i - 1][j - 1];
+            } else {
+                edits[i][j] = 1 + Math.min(edits[i - 1][j - 1], edits[i - 1][j], edits[i][j - 1]);
+            }
+        }
+    }
+    return edits[str2.length][str1.length];
+
 }
+
+// Do not edit the line below.
+exports.levenshteinDistance = levenshteinDistance;
 
 ```
 </div>
