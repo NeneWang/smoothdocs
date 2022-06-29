@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Smooth Talkers',
-  tagline: 'Public Speaking & Interviewing Skills',
+  title: 'Brooklyn College Smooth Talkers',
+  tagline: 'Brooklyn College\'s Public Speaking & Interviewing Skills preparation club.',
   url: 'https://smoothbc.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -54,10 +54,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      metadata: [{name: 'keywords', content: 'Brooklyn College, Interview, BC'}],
       navbar: {
         title: 'Smooth Talkers',
         logo: {
-          alt: 'Interviewing and Public Speaking Club Logo',
+          alt: 'Brooklyn College Interviewing and Public Speaking',
           src: 'img/logo.svg',
         },
         items: [

@@ -2,6 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import Link from '@docusaurus/Link';
+const axios = require('axios');
 
 const FeatureList = [
   {
@@ -49,32 +50,22 @@ function Feature({ Svg, title, description }) {
 }
 
 export default function HomepageFeatures() {
+
+
+  axios.get('https://script.googleusercontent.com/macros/echo?user_content_key=Snjj7o1JrDIRzPlZ2sevrNPiK_kmiqyXJCt-kVwyL2K6Pp39A2-yEGuMY-Livp6uyNR8LZ80M91dpISHaBCanhIWFgE92JXOm5_BxDlH2jW0nuo2oDemN9CCS2h10ox_1xSncGQajx_ryfhECjZEnHRM8zQ_PUX009M066sUikE4cqV5RAaEUaa1oRuTe2qN7NJ3VxMlMa2PTg2nZSokMK9IzFgSfWG3Ur3eUxbCELzTo9I5_ZRxpw&lib=MY8oQdIZSM21v0LTsCGPzE3c8Zit1y3bh').then(resp => {
+
+    console.log("Logging Data...")
+    console.log(resp.data);
+    console.log(resp.data[0])
+  });
+
   return (
     <section className={styles.features}>
 
 
       <div className="container ">
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLrWREhAvFi7EwDRsqPPCfTQ0FEUkzAWxA9taCanxujC-5rFh76AOndYEID716NUoWYz5hR6H4hrqr/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="300px"  ></iframe>
 
-        <div className='center center-text' >
-          <div className="center-text" >
-            <h2 className='' >📆 Upcoming Meetings  </h2></div>
-          <table className='center-table'>
-            <tr>
-              <td>Date</td>
-              <td>Time</td>
-              <td>Status</td>
-              <td>Link</td>
-              <td>RSV</td>
-            </tr>
-            <tr>
-              <td>May 11</td>
-              <td>3:30 pm - 5:30 pm</td>
-              <td>Cancelled</td>
-              <td><a target="_blank" href="https://zoom.us/my/afontenelle">Zoom</a></td>
-              <td><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc760joQhO5pSklci85Lkxj9Ml4xeZel4HndROHPJQtHnPrVg/viewform?usp=sf_link">RSVP Link</a></td>
-            </tr>
-          </table>
-        </div>
         <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />

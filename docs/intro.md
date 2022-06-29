@@ -20,11 +20,7 @@ from 3:30 pm to 5:30 pm virtually in: https://zoom.us/my/afontenelle.
 
 You can [RSVP to our meetings here](https://docs.google.com/forms/d/e/1FAIpQLSc760joQhO5pSklci85Lkxj9Ml4xeZel4HndROHPJQtHnPrVg/viewform?usp=sf_link)
 
-| Date   | Time              | Status    | Link                                   | RSV                                                                                                                          |
-| ------ | ----------------- | --------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| May 11 | 3:30 pm - 5:30 pm | Cancelled | [Zoom](https://zoom.us/my/afontenelle) | [RSVP Link](https://docs.google.com/forms/d/e/1FAIpQLSc760joQhO5pSklci85Lkxj9Ml4xeZel4HndROHPJQtHnPrVg/viewform?usp=sf_link) |
-
-
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQLrWREhAvFi7EwDRsqPPCfTQ0FEUkzAWxA9taCanxujC-5rFh76AOndYEID716NUoWYz5hR6H4hrqr/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" width="100%" height="300px"  ></iframe>
 
 ### Our Mission
 
