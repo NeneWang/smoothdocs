@@ -573,7 +573,7 @@ function numberOfWaysToTraverseGraph(width, height) {
 <iframe
   width="100%"
   height="420"
-  src="https://www.youtube.com/embed/8V1q-eT2NoQ"
+  src="https://www.youtube.com/embed/P5BTK6G2trg"
   allowfullscreen="true"
 />
 
@@ -582,8 +582,30 @@ function numberOfWaysToTraverseGraph(width, height) {
   <TabItem value="js" label="Js">
 
 ```js
-function status() {
-  console.log("On Development - Coming Soon!");
+function numberOfWaysToTraverseGraph(width, height) {
+  // Write your code here.
+  const ways = []
+  for(let i=0; i< height; i++){
+    ways.push([])
+    for(let j =0; j<width; j++){
+      ways[i].push(0)
+    }
+  }
+  
+ for(let i=0; i< height; i++){
+    
+    for(let j =0; j<width; j++){
+      if(i ==0 || j==0){
+        ways[i][j] = 1
+      }else{
+        
+      ways[i][j] = ways[i-1][j] + ways[i][j-1]
+      }
+      
+    }
+  }
+  return ways[height-1][width-1]
+  
 }
 ```
 
@@ -647,6 +669,15 @@ function kadanesAlgorithm(array) {
  👨‍🔬 Solutions
 </summary>
 
+
+<iframe
+  width="100%"
+  height="420"
+  src="https://www.youtube.com/embed/P5BTK6G2trg"
+  allowfullscreen="true"
+/>
+
+
 <Tabs>
   <TabItem value="js" label="Js">
 
@@ -699,11 +730,14 @@ int main() {
 
 ## 24 - Single Cycle Check
 
-You are given two positive integers representing the width and height of a grid-shaped, rectangular graph.
-Write a fucntion that returns the number of ways to reach the bottom right corner of the graph when starting at the top left corner. Each move you take must either go down or riight.
-In other words, you cna never move up or left in the graph.
+You are given an array of integers where each integer represents a jump of its value in the array. For instance, the integer `2` represents a jump of two indices forward in the array: 
+the integer  `-3` represents a jump of three indices backward in the array.
 
-![](../../static/img/2022-06-29-22-46-55.png)
+If a jump spills past the array's bounds, it wraps over to the other side. For instance, a jump of `-1` at index `0` bring us to the last index in the array. Similarly, a jump of `1` at the last index in the array bring us to index `0`
+
+Write a function that returns a boolean representing whether the jumps in the array form a single cycle. A single cycle occurs if, starting at any index in the array and following the jumps, every element in the array is visited exactly once before landing back on the starting index.
+
+../../static/img/2022-06-30-02-46-50.png
 
 ```js title="Starter code"
 function numberOfWaysToTraverseGraph(width, height) {
