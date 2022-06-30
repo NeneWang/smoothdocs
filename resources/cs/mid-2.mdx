@@ -560,6 +560,7 @@ In other words, you cna never move up or left in the graph.
 
 ```js title="Starter code"
 function numberOfWaysToTraverseGraph(width, height) {
+  // Write your code here.
   return 0;
 }
 ```
@@ -682,9 +683,18 @@ function kadanesAlgorithm(array) {
   <TabItem value="js" label="Js">
 
 ```js
-function status() {
-  console.log("On Development - Coming Soon!");
+function kadanesAlgorithm(array) {
+  // Write your code here.
+  let maxSoFar = array[0]
+  let maxTemp = array[0]
+  
+  for(let i = 1; i<array.length; i++){
+    maxTemp = Math.max(array[i], array[i] + maxTemp)
+    maxSoFar = Math.max(maxSoFar, maxTemp)
+  }
+  return maxSoFar
 }
+
 ```
 
   </TabItem>
