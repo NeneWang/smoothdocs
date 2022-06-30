@@ -58,3 +58,73 @@ function findKthLargestValueInBst(tree, k) {
 ```
 </div>
 </details>
+
+
+### Template
+
+
+## 23 - Title
+
+Description
+
+
+```js title="Starter code"
+function numberOfWaysToTraverseGraph(width, height) {
+  return 0;
+}
+```
+
+<details>
+<summary>
+ 👨‍🔬 Solutions
+</summary>
+
+<Tabs>
+  <TabItem value="js" label="Js">
+
+```js
+function status() {
+  console.log("On Development - Coming Soon!");
+}
+```
+
+  </TabItem>
+
+  <TabItem value="py" label="Py">
+
+```py
+def status():
+    print("On Development - Coming Soon using Python!")
+
+```
+
+  </TabItem>
+  <TabItem value="java" label="Java">
+
+```java
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("On Development - Coming Soon using Java!"); 
+    }
+}
+
+```
+
+  </TabItem>
+
+  <TabItem value="c++" label="C++">
+
+```cpp
+#include <iostream>
+
+int main() {
+    std::cout << "On Development - Coming Soon using C++!";
+    return 0;
+}
+```
+
+  </TabItem>
+  
+</Tabs>
+
+</details>
