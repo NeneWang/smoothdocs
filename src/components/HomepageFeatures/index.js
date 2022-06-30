@@ -56,7 +56,7 @@ export default function HomepageFeatures() {
 
     console.log("Logging Data...")
     console.log(resp.data);
-    console.log(resp.data[0])
+    console.log(resp.data[""])
   });
 
   return (
