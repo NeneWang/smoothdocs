@@ -747,7 +747,7 @@ If a jump spills past the array's bounds, it wraps over to the other side. For i
 
 Write a function that returns a boolean representing whether the jumps in the array form a single cycle. A single cycle occurs if, starting at any index in the array and following the jumps, every element in the array is visited exactly once before landing back on the starting index.
 
-../../static/img/2022-06-30-02-46-50.png
+![](../../static/img/2022-06-30-02-46-50.png)
 
 ```js title="Starter code"
 function numberOfWaysToTraverseGraph(width, height) {
@@ -770,7 +770,32 @@ function numberOfWaysToTraverseGraph(width, height) {
 
 
 <Tabs>
-  <TabItem value="js" label="Js">
+  <TabItem value="js+logs" label="Js+logs">
+
+```js
+function hasSingleCycle(array) {
+  let numElementVisited = 0;
+  let currentIdx = 0;
+
+  while(numElementVisited < array.length){
+    if(numElementVisited > 0 && currentIdx == 0) return false;
+    currentIdx = getNextIdx(currentIdx, array)
+    console.log(currentIdx)
+    numElementVisited++;
+  }
+  return currentIdx === 0;
+}
+
+function getNextIdx(currentIdx, array){
+  let nextIdx = (currentIdx + array[currentIdx]) % array.length
+  console.log(`currentIdx: ${currentIdx} arrel: ${array[currentIdx]} += ${nextIdx}`)
+  return nextIdx < 0 ? array.length + nextIdx : nextIdx
+  
+}
+```
+
+  </TabItem>
+    <TabItem value="js" label="Js">
 
 ```js
 function status() {
