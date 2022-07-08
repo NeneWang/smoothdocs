@@ -798,8 +798,25 @@ function getNextIdx(currentIdx, array){
     <TabItem value="js" label="Js">
 
 ```js
-function status() {
-  console.log("On Development - Coming Soon!");
+function hasSingleCycle(array) {
+  // Write your code here.
+  currentIdx = 0
+  amountOfTraversed = 0
+  
+  while(amountOfTraversed < array.length){
+    if (amountOfTraversed > 0 && currentIdx === 0) return false
+    currentIdx = getNext(currentIdx, array)
+    amountOfTraversed++;
+  }
+
+  return currentIdx === 0;
+  
+}
+
+function getNext(idx, array){
+  nextIdx = (idx + array[idx])%array.length
+  return nextIdx < 0? array.length + nextIdx: nextIdx
+  
 }
 ```
 
