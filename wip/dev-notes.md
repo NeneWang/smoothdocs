@@ -137,3 +137,20 @@ int main() {
 </Tabs>
 
 </details>
+
+## Template for Youtube Description
+
+
+```13 = Min Height BST
+Algorithms extracted from Algo Expert. I am just doing this to improve my algorithms I don't claim any intellectual properties on them. All rights and credits for Algo Experts
+Mid level Difficulty
+Mid Level Difficulty Playlist: https://www.youtube.com/playlist?list=PL9uzS50-jJs6cTnFuc4eGo_FqCp17Z2wA
+
+Algo Experts Plan: https://docs.google.com/spreadsheets/d/e/2PACX-1vQrZ8KKNMBA7AB9lqaPDcYX8Yr5Jej1mzGhQrlXcuJiOwGcjndHhrh2ULY8DJcjN3mYYngHz_6xSNxD/pubhtml?gid=931564214&single=true
+
+You can view the full problem and other problems including other interview questions here:
+https://smoothbc.com/resources/cs/mid-2
+
+```
+
+
